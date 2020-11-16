@@ -12,9 +12,11 @@
 html {
     box-sizing: border-box;
 }
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
 h1, h2, h3, h4, h5, h6, p {
     margin-top: 0;
 }
@@ -22,37 +24,42 @@ h1, h2, h3, h4, h5, h6, p {
 * {
     margin: 0;
     padding: 0;
- }
+}
 
 html, body {
     -webkit-text-size-adjust: 100%;
     overflow-x:hidden;
 }
 
-.body-index {
-    margin: 0;
-    background-color: none;
-    background-image: url("../images/landing-wallpaper.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    max-width: 100%;
-    height: auto;
-}
-
 header {
     background-color: none;
     color:black;
 }
+
 /*
 -------------------------
     .class selectors
 -------------------------
 */
+
 .wrapper {
     max-width: 100%;
     margin: 0 auto;
     background-color: none;
 }
+
+.body-index {
+    margin: 0;
+    background-size: cover;
+    background-color: none;
+    background-image: url("../images/landing-wallpaper.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    max-width: 100%;
+    height: auto;
+}
+
 .btn-menu {
     background-color: none;
     color: black;    
@@ -62,6 +69,7 @@ header {
     margin-right: 30px;
     cursor: pointer;
 }
+
 .nav-a {
     color: black;
     text-decoration: none;
@@ -75,19 +83,20 @@ header {
     text-align: center;
 }
 
-#nav-ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-}
 /*
 ------------------------
     #id selectors
 ------------------------
 */
 
+#nav-ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
 /*
 --------------------------
-    @media selectors
+    @media queries
 --------------------------
 */
