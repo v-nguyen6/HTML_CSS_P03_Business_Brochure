@@ -1,8 +1,22 @@
+/*      author: mina, olivia, vinson
+	    date: 2020-11-16
+	    title: keep it cheesy - scss
+*/
+
+// Variables 
 @import 'vars';
 
 // Resets
 @import 'normalize';
 
-// Elements
+// HTML Components
 @import 'body';
+@import 'footer';
+@import 'typography';
+@import 'header';
+@import 'wrapper';
+@import 'images';
+
+
+
 
