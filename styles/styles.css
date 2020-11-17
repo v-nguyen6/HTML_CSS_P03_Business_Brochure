@@ -1,3 +1,7 @@
+/*      author: mina, olivia, vinson
+	    date: 2020-11-16
+	    title: keep it cheesy - scss
+*/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -341,10 +345,6 @@ template {
   display: none;
 }
 
-body {
-  background-image: url("../images/landing-wallpaper.png");
-}
-
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -367,17 +367,12 @@ h1, h2, h3, h4, h5, h6, p {
 html, body {
   -webkit-text-size-adjust: 100%;
   overflow-x: hidden;
+  margin: 0;
 }
 
-header {
-  background-color: none;
-  color: black;
-}
-
-.wrapper {
+img {
   max-width: 100%;
-  margin: 0 auto;
-  background-color: none;
+  height: auto;
 }
 
 .body-index {
@@ -415,6 +410,10 @@ header {
   text-align: center;
 }
 
+.logo {
+  width: 45%;
+}
+
 #nav-ul {
   list-style-type: none;
   display: -webkit-box;
@@ -424,5 +423,12 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: none;
+  max-width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
