@@ -1,0 +1,102 @@
+@charset "utf-8";
+/*      author: mina, vinson, olivia
+	    date: 2020-11-13
+	    title: keep it cheesy - css
+*/
+
+/*
+-----------------------
+    HTML selectors
+-----------------------
+*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    -webkit-text-size-adjust: 100%;
+    overflow-x:hidden;
+}
+
+header {
+    background-color: none;
+    color:black;
+}
+
+/*
+-------------------------
+    .class selectors
+-------------------------
+*/
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: none;
+}
+
+.body-index {
+    margin: 0;
+    background-size: cover;
+    background-color: none;
+    background-image: url("../images/landing-wallpaper.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-menu {
+    background-color: none;
+    color: black;    
+    border: none;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.nav-a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.90em;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;    
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*
+------------------------
+    #id selectors
+------------------------
+*/
+
+#nav-ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+--------------------------
+    @media queries
+--------------------------
+*/
