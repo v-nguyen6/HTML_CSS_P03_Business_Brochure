@@ -8,8 +8,16 @@ nav {
         list-style: none;
     }
 
-    @include mq(){
-        
+    @include mq($tabletMedium){
+        ul {
+            display: flex;
+        }
+
+        li {
+            flex: 1;
+        }
+
+        a
     }
 
 }
