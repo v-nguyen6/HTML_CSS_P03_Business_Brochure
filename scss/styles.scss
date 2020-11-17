@@ -6,6 +6,9 @@
 // Variables 
 @import 'vars/vars';
 
+// Mixins
+@import 'mixins/mixins';
+
 // Resets
 @import 'resets/normalize';
 @import 'resets/boxreset';
@@ -15,11 +18,9 @@
 
 // HTML Components
 @import 'components/body';
-@import 'components/footer';
-@import 'components/header';
 @import 'components/wrapper';
+@import 'components/header';
+@import 'components/nav';
+@import 'components/main';
+@import 'components/footer';
 @import 'components/images';
-
-
-
-
