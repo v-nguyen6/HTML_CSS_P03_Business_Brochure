@@ -1,1 +1,15 @@
 // Nav Style Guide
+nav {
+    background-color: ;
+
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    @include mq(){
+        
+    }
+
+}
