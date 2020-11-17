@@ -72,33 +72,35 @@
 
                         <fieldset>
                             <legend>About You</legend>
+                            
                             <br>
+
                             <div class="form-group contact-info-group">
+
+                                <!-- Text Input -->
                                 
                                 <div class="form-row name">
                                     <label for="fn">Full name</label>
                                     <input type="text" id="fn" name="fn" placeholder="Full name..." required>
                                 </div>
-                                
                                 <div class="form-row email">
                                     <label for="email">Email</label>
                                     <input type="text" id="email" name="email" placeholder="Email..." required>
-                                </div>
-                            
+                                </div>                          
                                 <div class="form-row phone">
                                     <label for="phone">Phone number</label>
                                     <input type="text" id="phone" name="phone" placeholder="Phone number..." required>
                                 </div>
 
-                                <br>
-
                                 <!-- Radio Buttons -->
+
+                                <br>
 
                                 <div class="form-group delivery">
                                     <label for="deliver">Delivery method: </label>
                                     <div class="form-row deliver">
                                       <input type="radio" name="delivery" id="deliver" value="deliver">
-                                      <label for="deliver">Deliver</label>
+                                      <label for="deliver">Delivery</label>
                                     </div>
                                     <div class="form-row Pick-up">
                                       <input type="radio" name="delivery" id="pickup" value="pickup">
@@ -106,8 +108,9 @@
                                     </div>
                                 </div>
 
-                                <br>
                                 <!-- Check Boxes -->
+
+                                <br>
                                 
                                 <div class="form-group cheesetype">
                                     <label for="interests">Type of Cheese: </label>
@@ -125,7 +128,42 @@
                                     </div>
                                 </div>
 
+                                <!-- Selection -->
+
+                                <br>
+
+                                <div class="form-group cheesetype">
+                            
+                                    <label for="jobrole">Select type: </label>
+                                    <select name="jobrole" id="jobrole">
+                                    <optgroup label="Web">
+                                        <option value="frontenddeveloper">Front-end Developer</option>
+                                        <option value="phpdeveloper">PHP Developer</option>
+                                        <option value="pythondeveloper">Python Developer</option>
+                                    <option value="railsdeveloper">Rails Developer</option>
+                                        <option value="webdesigner">Web Designer</option>
+                                        <option value="wordpressdeveloper">WordPress Developer</option>
+                                    </optgroup>
+                                    <optgroup label="Mobile">
+                                        <option value="androiddeveloper">Android Developer</option>
+                                        <option value="iosdeveloper">IOS Developer</option>
+                                        <option value="mobiledesigner">Mobile Designer</option>
+                                    </optgroup>
+                                    <optgroup label="Business">
+                                        <option value="businessowner">Business Owner</option>
+                                        <option value="freelancer">Freelancer</option>
+                                        </optgroup>
+                                    <optgroup label="Other">
+                                        <option value="secretary">Secretary</option>
+                                        <option value="Maintenance">Maintenance</option>
+                                        </optgroup>
+                                    </select>
+                                    
+                                </div>
+
                                 <!-- Text Area -->
+                                
+                                <br>
 
                                 <div class="form-group comments">
                                     <label for="comments">Comments: </label>
@@ -133,6 +171,8 @@
                                 </div>
 
                                 <!--Submit Button-->
+
+                                <br>
 
                                 <div class="form-group submit">
                                     <input type="submit" value="Submit">
