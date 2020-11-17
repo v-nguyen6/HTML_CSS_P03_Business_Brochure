@@ -1,22 +1,24 @@
+// Master SASS File
 /*      author: mina, olivia, vinson
 	    date: 2020-11-16
 	    title: keep it cheesy - scss
 */
-
 // Variables 
-@import 'vars';
+@import 'vars/vars';
 
 // Resets
-@import 'normalize';
-@import 'boxreset';
+@import 'resets/normalize';
+@import 'resets/boxreset';
+
+// Typography 
+@import 'typography/typography';
 
 // HTML Components
-@import 'body';
-@import 'footer';
-@import 'typography';
-@import 'header';
-@import 'wrapper';
-@import 'images';
+@import 'components/body';
+@import 'components/footer';
+@import 'components/header';
+@import 'components/wrapper';
+@import 'components/images';
 
 
 
