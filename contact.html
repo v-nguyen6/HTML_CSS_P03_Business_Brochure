@@ -61,7 +61,7 @@
                 </nav>			
             </header>
             <main>
-                <!-- section 1: contact us -->
+                <!-- Contact -->
                 <section class="contact-form" id="#contact-form">
                     <h2>Contact Us</h2>
                     <form action="/" class="basic-form" method="post">
@@ -72,42 +72,72 @@
 
                         <fieldset>
                             <legend>About You</legend>
+                            <br>
                             <div class="form-group contact-info-group">
-                                <div class="form-row first-name">
-                                    <label for="fn">First Name</label>
-                                    <input type="text" id="fn" name="fn" placeholder="First Name..." required>
+                                
+                                <div class="form-row name">
+                                    <label for="fn">Full name</label>
+                                    <input type="text" id="fn" name="fn" placeholder="Full name..." required>
                                 </div>
-                                <!-- End Form Row-->
-                                <div class="form-row last-name">
-                                    <label for="ln">Last Name</label>
-                                    <input type="text" id="ln" name="ln" placeholder="Last Name..." required>
-                                </div>
-                                <!-- End Form Row-->
+                                
                                 <div class="form-row email">
                                     <label for="email">Email</label>
                                     <input type="text" id="email" name="email" placeholder="Email..." required>
                                 </div>
-                                <!-- End Form Row-->
+                            
                                 <div class="form-row phone">
-                                    <label for="phone">Phone Number</label>
+                                    <label for="phone">Phone number</label>
                                     <input type="text" id="phone" name="phone" placeholder="Phone Number..." required>
                                 </div>
-                                <!-- End Form Row-->
-                                <h3>Comment</h3>
-                                <div class="form-row subject">
-                                    <label for="subject">Subject</label>
-                                    <input type="text" id="subject" name="subject" placeholder="Subject..." required>
-                                </div>
-                                <!-- End Form Row-->
+
                                 <br>
-                                <div class="form-group">
-                                    <label for="comments">Comments: </label>
-                                    <textarea name="comments" id="comments"></textarea>
+
+                                <!-- Radio Buttons -->
+
+                                <div class="form-group delivery">
+                                    <label for="deliver">Delivery method: </label>
+                                    <div class="form-row deliver">
+                                      <input type="radio" name="delivery" id="deliver" value="deliver">
+                                      <label for="deliver">Deliver</label>
+                                    </div>
+                                    <div class="form-row Pick-up">
+                                      <input type="radio" name="delivery" id="pickup" value="pickup">
+                                      <label for="pickup">Pick-up</label>
+                                    </div>
                                 </div>
+
+                                <br>
+                                <!-- Check Boxes -->
+                                
+                                <div class="form-group cheesetype">
+                                    <label for="interests">Type of Cheese: </label>
+                                    <div class="form-row cheeseone">
+                                      <input type="checkbox" name="cheesetype[]" id="cheeseone" value="cheeseone">
+                                        <label for="cheeseone">Cheese One</label>
+                                    </div>
+                                    <div class="form-row cheesetype">
+                                      <input type="checkbox" name="cheesetype[]" id="cheesetwo" value="cheesetwo">
+                                      <label for="cheesetwo">Cheese Two</label>
+                                    </div>
+                                    <div class="form-row cheesetype">
+                                      <input type="checkbox" name="cheesethree[]" id="cheesethree" value="cheesethree">
+                                      <label for="cheesethree">Cheese Three</label>
+                                    </div>
+                                </div>
+
+                                <!-- Text Area -->
+
+                                <div class="form-group comments">
+                                    <label for="comments">Comments: </label>
+                                    <textarea rows="6" name="comments" id="comments"></textarea>
+                                </div>
+
                                 <!--Submit Button-->
-                                <div class="form-row submit">
+
+                                <div class="form-group submit">
                                     <input type="submit" value="Submit">
                                 </div>
+
                             </div>
                         </fieldset>
                     </form>
