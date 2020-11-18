@@ -34,3 +34,57 @@ function topFunction() {
   document.body.scrollTop = 0; // for Safari
   document.documentElement.scrollTop = 0; // for Chrome, Firefox, IE and Opera
 }
+
+
+/*
+---------------------------------------------------------------------------------------------------------------
+----------------
+Navigation Bar JS 
+----------------
+---------------------------------------------------------------------------------------------------------------
+*/
+var cursor = true;
+    var speed = 500;
+    setInterval(() => {
+
+        if(cursor) {
+        document.getElementById('cursor').style.opacity = 0;
+        cursor = false;
+        }
+
+        else {
+        document.getElementById('cursor').style.opacity = 2;
+        cursor = true;
+        }
+
+        },speed);
+
+
+const menuIcon = document.querySelector('.hamburger-menu')
+
+const navBar = document.querySelector('.navbar')
+const navBarLinks = navBar.querySelectorAll('a')
+
+
+
+menuIcon.addEventListener('click', _ => {
+    navBar.classList.toggle('change');
+    document.body.classList.toggle('open')
+});
+
+navBarLinks.forEach(link => {
+    link.addEventListener('click', _ => { 
+
+        document.body.classList.remove('open')
+        navBar.classList.remove('change')
+    })
+})
+
+
+/*
+---------------------------------------------------------------------------------------------------------------
+----------------
+Placeholder Text.......(Used to seperate our pages/classes)
+----------------
+---------------------------------------------------------------------------------------------------------------
+*/
