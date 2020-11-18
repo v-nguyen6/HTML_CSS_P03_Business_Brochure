@@ -67,11 +67,15 @@
                     <form action="/" class="basic-form" method="post">
 
                         <h3>Feel free to reach out to us</h3>
-                        <p>We would love to hear about any questions you may have on our high quality products or on our sustainable and ethically conscious methods of producing our cheese!</p>
-                        <p>Feel free to also reach out to us regarding ordering and shipping information as well as our protocols on Covid-19. </p>
+                        <p>
+                            We would love to hear about any questions you may have on our high quality products or on our sustainable and ethically conscious methods of producing our cheese!
+                        </p>
+                        <p>
+                            Feel free to also reach out to us regarding ordering and shipping information as well as our protocols on Covid-19. 
+                        </p>
 
                         <fieldset>
-                            <legend>About You</legend>
+                            <legend>Contact Form</legend>
                             
                             <br>
 
@@ -79,32 +83,43 @@
 
                                 <!-- Text Input -->
                                 
-                                <div class="form-row name">
-                                    <label for="fn">Full name</label>
-                                    <input type="text" id="fn" name="fn" placeholder="Full name..." required>
+                                <div class="form-row first-name">
+                                    <label for="first-name">First Name</label>
+                                    <br>
+                                    <input type="text" id="first-name" name="first-name" placeholder="First Name..." required>
                                 </div>
-                                <div class="form-row name">
+                                <br>
+                                <div class="form-row last-name">
+                                    <label for="last-name">Last Name</label>
+                                    <br>
+                                    <input type="text" id="last-name" name="last-name" placeholder="Last Name..." required>
+                                </div>
+                                <br>
+                                <div class="form-row email">
                                     <label for="email">Email</label>
-                                    <input type="text" id="email" name="email" placeholder="Email..." required>
-                                </div>                          
-                                <div class="form-row name">
-                                    <label for="phone">Phone number</label>
-                                    <input type="text" id="phone" name="phone" placeholder="Phone number..." required>
+                                    <br>
+                                    <input type="text" id="email" name="email" placeholder="takeitcheesy@cheesy.ca" required>
+                                </div>
+                                <br>                          
+                                <div class="form-row phone number">
+                                    <label for="phone">Phone Number</label>
+                                    <br>
+                                    <input type="text" id="phone" name="phone" placeholder="(000)-000-0000" required>
                                 </div>
 
                                 <!-- Radio Buttons -->
 
                                 <br>
 
-                                <div class="form-group delivery">
-                                    <label for="deliver">Delivery method: </label>
+                                <div class="form-group delivery-method">
+                                    <label for="delivery-method">Delivery Method</label>
                                     <div class="form-row deliver">
                                       <input type="radio" name="delivery" id="deliver" value="deliver">
                                       <label for="deliver">Delivery</label>
                                     </div>
-                                    <div class="form-row Pick-up">
+                                    <div class="form-row pick-up">
                                       <input type="radio" name="delivery" id="pickup" value="pickup">
-                                      <label for="pickup">Pick-up</label>
+                                      <label for="pickup">Pick-Up</label>
                                     </div>
                                 </div>
 
@@ -113,49 +128,84 @@
                                 <br>
                                 
                                 <div class="form-group cheesetype">
-                                    <label for="interests">Type of Cheese: </label>
+                                    <label for="cheesetype">Cheeses to Order</label>
                                     <div class="form-row cheeseone">
-                                      <input type="checkbox" name="cheesetype[]" id="cheeseone" value="cheeseone">
-                                        <label for="cheeseone">Cheese One</label>
+                                      <input type="checkbox" name="cheesetype[]" id="cheese-one" value="cheese-one">
+                                        <label for="cheese-one">Fresh - Ricotta</label>
                                     </div>
                                     <div class="form-row cheesetype">
-                                      <input type="checkbox" name="cheesetype[]" id="cheesetwo" value="cheesetwo">
-                                      <label for="cheesetwo">Cheese Two</label>
+                                      <input type="checkbox" name="cheesetype[]" id="cheese-two" value="cheese-two">
+                                      <label for="cheese-two">Fresh - Mascarpone</label>
                                     </div>
-                                    <div class="form-row cheesetype">
-                                      <input type="checkbox" name="cheesethree[]" id="cheesethree" value="cheesethree">
-                                      <label for="cheesethree">Cheese Three</label>
-                                    </div>
+                                    <div class="form-row cheeseone">
+                                        <input type="checkbox" name="cheesetype[]" id="cheese-one" value="cheese-one">
+                                          <label for="cheese-one">Soft-ripened - Brie</label>
+                                      </div>
+                                      <div class="form-row cheesetype">
+                                        <input type="checkbox" name="cheesetype[]" id="cheese-two" value="cheese-two">
+                                        <label for="cheese-two">Soft-ripened - Camembert</label>
+                                      </div>
+                                      <div class="form-row cheesetype">
+                                        <input type="checkbox" name="cheesethree[]" id="cheese-three" value="cheese-three">
+                                        <label for="cheese-three">Semi-soft - Gouda</label>
+                                      </div>
+                                      <div class="form-row cheeseone">
+                                        <input type="checkbox" name="cheesetype[]" id="cheese-one" value="cheese-one">
+                                          <label for="cheese-one">Semi-soft - Edam</label>
+                                      </div>
+                                      <div class="form-row cheesetype">
+                                        <input type="checkbox" name="cheesetype[]" id="cheese-two" value="cheese-two">
+                                        <label for="cheese-two">Semi-soft - Havarti</label>
+                                      </div>
+                                      <div class="form-row cheesetype">
+                                        <input type="checkbox" name="cheesethree[]" id="cheese-three" value="cheese-three">
+                                        <label for="cheese-three">Semi-soft - Mozzarella</label>
+                                      </div>
+                                      <div class="form-row cheeseone">
+                                        <input type="checkbox" name="cheesetype[]" id="cheese-one" value="cheese-one">
+                                          <label for="cheese-one">Semi-soft - Provolone</label>
+                                      </div>
+                                      <div class="form-row cheesetype">
+                                        <input type="checkbox" name="cheesetype[]" id="cheese-two" value="cheese-two">
+                                        <label for="cheese-two">Semi-soft - Swiss</label>
+                                      </div>
+                                      <div class="form-row cheesetype">
+                                        <input type="checkbox" name="cheesethree[]" id="cheese-three" value="cheese-three">
+                                        <label for="cheese-three">Hard - Cheddar</label>
+                                      </div>
+                                      <div class="form-row cheesetype">
+                                        <input type="checkbox" name="cheesethree[]" id="cheese-three" value="cheese-three">
+                                        <label for="cheese-three">Hard - Parmesan</label>
+                                      </div>
+                                      <div class="form-row cheesetype">
+                                        <input type="checkbox" name="cheesethree[]" id="cheese-three" value="cheese-three">
+                                        <label for="cheese-three">Hard - Pecorino Romano</label>
+                                      </div>
                                 </div>
 
                                 <!-- Selection -->
 
                                 <br>
 
-                                <div class="form-group cheesetype">
+                                <div class="form-group delivery-time">
                             
-                                    <label for="jobrole">Select type: </label>
-                                    <select name="jobrole" id="jobrole">
-                                    <optgroup label="Web">
-                                        <option value="frontenddeveloper">Front-end Developer</option>
-                                        <option value="phpdeveloper">PHP Developer</option>
-                                        <option value="pythondeveloper">Python Developer</option>
-                                    <option value="railsdeveloper">Rails Developer</option>
-                                        <option value="webdesigner">Web Designer</option>
-                                        <option value="wordpressdeveloper">WordPress Developer</option>
+                                    <label for="delivery-time">Pickup Time</label>
+                                    <br>
+                                    <select name="delivery-time" id="delivery-time">
+                                    <optgroup label="Morning">
+                                        <option value="8pm">8:00AM</option>
+                                        <option value="830pm">8:30AM</option>
+                                        <option value="9pm">9:00AM</option>
                                     </optgroup>
-                                    <optgroup label="Mobile">
-                                        <option value="androiddeveloper">Android Developer</option>
-                                        <option value="iosdeveloper">IOS Developer</option>
-                                        <option value="mobiledesigner">Mobile Designer</option>
+                                    <optgroup label="Afternoon">
+                                        <option value="1pm">1:00PM</option>
+                                        <option value="130pm">1:30PM</option>
+                                        <option value="2pm">2:00PM</option>
                                     </optgroup>
-                                    <optgroup label="Business">
-                                        <option value="businessowner">Business Owner</option>
-                                        <option value="freelancer">Freelancer</option>
-                                        </optgroup>
-                                    <optgroup label="Other">
-                                        <option value="secretary">Secretary</option>
-                                        <option value="Maintenance">Maintenance</option>
+                                    <optgroup label="Evening">
+                                        <option value="3pm">3:00PM</option>
+                                        <option value="330pm">3:30PM</option>
+                                        <option value="4pm">4:00PM</option>
                                         </optgroup>
                                     </select>
                                     
@@ -166,7 +216,8 @@
                                 <br>
 
                                 <div class="form-group comments">
-                                    <label for="comments">Comments: </label>
+                                    <label for="comments">Comments</label>
+                                    <br>
                                     <textarea rows="6" name="comments" id="comments"></textarea>
                                 </div>
 
