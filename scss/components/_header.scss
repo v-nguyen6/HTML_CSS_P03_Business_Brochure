@@ -15,7 +15,8 @@
 .logo {
     width: 40%;
 
-    
+    @media (min-width: $desktopSmall)
+    {
+        width: 90%;
+    }
 }
-
-
