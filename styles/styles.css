@@ -481,4 +481,14 @@ nav ul {
             flex: 1;
   }
 }
+
+footer {
+  color: black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
 /*# sourceMappingURL=styles.css.map */
