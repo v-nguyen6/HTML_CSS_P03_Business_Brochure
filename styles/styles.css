@@ -387,18 +387,6 @@ img {
   height: auto;
 }
 
-.body-about-index {
-  margin: 0;
-  background-size: cover;
-  background-color: none;
-  background-image: url("../images/about/cheese_background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  max-width: 100%;
-  height: auto;
-}
-
 .btn-menu {
   background-color: none;
   color: black;
