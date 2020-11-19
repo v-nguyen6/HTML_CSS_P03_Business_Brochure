@@ -928,15 +928,13 @@ Process Page
 
 .process-banner-header {
   position: absolute;
-  top: 60%;
-  right: 6%;
+  top: 200px;
   text-transform: uppercase;
 }
 
 .process-banner-btn {
   position: absolute;
-  top: 50%;
-  right: 1%;
+  top: 200px;
   -webkit-transform: translate(0%, -20%);
           transform: translate(0%, -20%);
 }
