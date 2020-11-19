@@ -3,8 +3,10 @@
 // main selectors
     // contact form - main selectors
 
-
-
+    fieldset {
+        margin-top: 20px;
+        border: none;
+    }
 // .class selectors
     // contact form - .class selectors
 
@@ -13,6 +15,7 @@
         position: absolute;
         right: 50%;
         margin-top: -70px;
+        padding-left: 50px;
     }
     
     .contact-form h2 {
@@ -21,6 +24,10 @@
         text-align: center;
     }
    
+    .basic-form p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
 // #id selectors
     // contact form - #id selectors
