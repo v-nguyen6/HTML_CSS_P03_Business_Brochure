@@ -492,40 +492,184 @@ html {
   }
 }
 
-nav ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+/*
+------------------------------------------------------------------------------------------------
+-------
+HTML Element Selectors (Index/About/Contact/Process Pages)
+-------
+------------------------------------------------------------------------------------------------
+*/
+/*--- Typography & General Layout (Universal) ---*/
+/*--- Nav Bar Interactions (Universal) ---*/
+/* Navigation Interactions */
+nav a:focus,
+nav a:active,
+nav a:hover {
+  color: #a38068;
+  text-decoration: none;
 }
 
-@media (min-width: 700px) {
-  nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  nav li {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-  }
+/*--- Hamburger Menu / SideMenu ---*/
+body.open {
+  overflow: hidden;
+}
+
+/*
+------------------------------------------------------------------------------------------------
+-------
+.Class Element Selectors 
+-------
+------------------------------------------------------------------------------------------------
+*/
+/* Hamburger Menu & Animations*/
+.hamburger-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 35px;
+  height: 30px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  cursor: pointer;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  z-index: 900;
+}
+
+.open .line-1 {
+  -webkit-transform: rotate(-45deg) translate(-8px, 6px);
+          transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.open .line-3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -6px);
+          transform: rotate(45deg) translate(-8px, -6px);
+}
+
+.open .line-2 {
+  opacity: 0;
+}
+
+.line {
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+/* NavBar */
+.navbar {
+  width: 200px;
+  /*Aligned with top About Section*/
+  height: 100vh;
+  background-color: darkgray;
+  position: absolute;
+  top: 0;
+  /*Controls where Nav bar is located - Mobile Format*/
+  right: -200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /*Nav Bar coming from side, Text should align to RIGHT side of screen*/
+  text-align: right;
+  -webkit-transition: right .9s;
+  transition: right .9s;
+  z-index: 2;
+}
+
+/* Controls Interaction / Makes Sidebar come out - MUST BE AT THE END */
+.change {
+  right: 0;
+}
+
+/*--- Nav SideBar/Hamburger Menu ---*/
+.nav-item {
+  margin-top: 30px;
+  margin-right: 60px;
+  list-style-type: none;
 }
 
 .nav-a {
   color: black;
   text-decoration: none;
-  font-size: 0.90em;
-  line-height: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 100%;
-  display: block;
+  font-size: 1.3em;
   text-transform: uppercase;
-  text-align: center;
 }
 
+/* Main Nav Underline */
+.nav-a:hover {
+  border-bottom: 3px solid #a38068;
+}
+
+/*
+------------------------------------------------------------------------------------------------
+-------
+#ID Selectors 
+-------
+------------------------------------------------------------------------------------------------
+*/
 #nav-ul {
   list-style-type: none;
+}
+
+/*
+------------------------------------------------------------------------------------------------
+-------
+Media Query (Universal)
+-------
+------------------------------------------------------------------------------------------------
+*/
+/*--- Mobile ---*/
+@media (min-width: 750px) {
+  /* Hamburger Menu */
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+/*--- Tablet ---*/
+@media (min-width: 900px) {
+  /* Hamburger Menu */
+  .hamburger-menu {
+    display: none;
+  }
+  /* Nav Menu */
+  #nav-ul {
+    position: absolute;
+    /* Makes sure the navigation bar is there ALWAYS, past mobile mode */
+    top: 10px;
+    right: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+/*--- Desktop ---*/
+@media (min-width: 1200px) {
+  /* Hamburger Menu */
+  /* Nav Menu */
+  #nav-ul {
+    position: absolute;
+    /* Makes sure the navigation bar is there ALWAYS, past mobile mode */
+    top: 10px;
+    right: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .contact-form {
