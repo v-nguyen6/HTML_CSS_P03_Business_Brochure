@@ -7,10 +7,6 @@
     background-color: none;
     overflow: hidden;
   
-   
-
-
     @include mc(false, 20px, 30px);
     max-width: $siteWidth;
 }
-
