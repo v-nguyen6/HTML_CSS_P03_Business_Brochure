@@ -3,19 +3,20 @@
 // main selectors
     // contact form - main selectors
 
-    fieldset {
-        margin-top: 20px;
-        border: none;
-    }
 // .class selectors
     // contact form - .class selectors
+
+    .fieldset-contact {
+        margin-top: 50px;
+        border: none;
+    }
 
     .contact-form {
         text-align: left;
         position: absolute;
         right: 50%;
-        margin-top: -70px;
         padding-left: 50px;
+        margin-top: 200px;
     }
     
     .contact-form h2 {
@@ -29,8 +30,23 @@
         padding-bottom: 10px;
     }
 
+    .form-row input,
+    select, 
+    optgroup,
+    option {
+        border: none;
+        background-color: lightgrey;
+        padding: 5px;
+        margin: 5px;
+    }
+    .form-row label,
+    .fieldset-contact legend {
+        margin-left: 5px;
+    }
+
 // #id selectors
     // contact form - #id selectors
+
 
 // @media
     // contact form - @media
