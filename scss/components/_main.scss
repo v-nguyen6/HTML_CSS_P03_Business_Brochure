@@ -102,8 +102,27 @@
     // contact form - @media
     @media (max-width: $tabletMedium) {
         .contact-form {
+            padding: none;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+        .contact-form h2,
+        .legend-contact-form {
+            font-size: 1.25em;
             padding: 0px;
-            
+        }
+        .contact-form p,
+        .contact-label,
+        .contact-grey-bckgnd,
+        .form-row label {
+            font-size: 0.85em;
+        }
+        .legend-contact-form {
+            padding: 0px;
+            margin: 0px;
         }
     }
 
