@@ -405,21 +405,18 @@ img {
   height: auto;
 }
 
-/*
 body {
-    font-family: ;
-    font-weight: ;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1, h2, h3, h4 h5, h6 {
-    font-family: ;
-    font-weight: ;
+  font-family: "Merriweather", serif;
 }
 
 nav a {
-    font-family: ;
-    font-weight: ;
-} */
+  font-family: "Josefin Sans", sans-serif;
+}
+
 html {
   height: 100%;
 }
