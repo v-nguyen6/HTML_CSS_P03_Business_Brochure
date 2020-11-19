@@ -424,6 +424,13 @@ html {
   height: 100%;
 }
 
+/*
+------------------------------------------------------------------------------------------------
+-------
+INDEX STYLES
+-------
+------------------------------------------------------------------------------------------------
+*/
 .tagline-container {
   left: 0;
   margin-top: -100px;
@@ -521,6 +528,14 @@ html {
     }
 
 }
+*/
+/*
+------------------------------------------------------------------------------------------------
+-------
+CONTACT STYLES
+
+-------
+------------------------------------------------------------------------------------------------
 */
 .form-group {
   display: -ms-grid;
@@ -746,6 +761,7 @@ Media Query (Universal)
   text-align: left;
   position: absolute;
   right: 50%;
+  margin-top: -50px;
 }
 
 footer {
@@ -788,9 +804,9 @@ footer {
   background-color: none;
   background-image: url("/images/contact-bg2.png");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center;
-  max-width: 1920px;
+  max-width: 100%;
   height: auto;
 }
 /*# sourceMappingURL=styles.css.map */
