@@ -8,7 +8,6 @@
 
     .fieldset-contact {
         margin-top: 50px;
-        border: none;
     }
 
     .contact-form {
@@ -20,11 +19,17 @@
     }
     
     .contact-form h2 {
-        font-size: 2.5em;
+        font-size: 2em;
         font-weight: lighter;
         text-align: center;
     }
-   
+    
+    .legend-contact-form {
+        font-size: 1.5em;
+        font-weight: lighter;
+        text-align: center;
+    }
+
     .basic-form p {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -49,6 +54,12 @@
     .basic-form p,
     .contact-form h2 {
         margin-left: 20px;
+    }
+
+    .submit {
+        width: 100px;
+        padding: 10px;
+        text-transform: uppercase;
     }
 
 // #id selectors
