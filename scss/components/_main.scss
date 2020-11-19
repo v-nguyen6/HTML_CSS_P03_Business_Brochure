@@ -16,7 +16,7 @@
         position: absolute;
         right: 50%;
         padding-left: 50px;
-        margin-top: 200px;
+        margin-top: 150px;
     }
     
     .contact-form h2 {
@@ -39,9 +39,16 @@
         padding: 5px;
         margin: 5px;
     }
+
     .form-row label,
-    .fieldset-contact legend {
+    .form-group label,
+    .legend-contact-form {
         margin-left: 5px;
+    }
+
+    .basic-form p,
+    .contact-form h2 {
+        margin-left: 20px;
     }
 
 // #id selectors
