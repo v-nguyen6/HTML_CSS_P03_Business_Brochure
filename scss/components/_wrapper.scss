@@ -1,8 +1,13 @@
 // Wrapper
 .wrapper {
-    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     background-color: none;
+    overflow: hidden;
+  
+   
 
 
     @include mc(false, 20px, 30px);
