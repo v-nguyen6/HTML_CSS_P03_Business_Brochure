@@ -440,7 +440,7 @@ INDEX STYLES
   text-align: left;
   top: 50%;
   font-size: 20px;
-  width: 50%;
+  width: 90%;
 }
 
 @media (min-width: 700px) {
@@ -464,10 +464,6 @@ INDEX STYLES
 
 .tagline {
   color: #c8beb3;
-}
-
-.explorebutton {
-  max-width: 20%;
 }
 
 /* Offset Button Styles */
@@ -496,23 +492,31 @@ INDEX STYLES
   font-size: 20px;
 }
 
-/*
-.explorebutton {
-
-    @media (min-width: $tabletMedium)
-    
-    {
-       
-    }
-
-    @media (min-width: $desktopSmall)
-    
-    {
-        
-    }
-
+@media (min-width: 770px) {
+  .explorebutton .btn-explore {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+  }
+  .explorebutton .btn-explore:before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    border: 4px solid white;
+  }
+  .explorebutton .btn-txt {
+    background-color: #363636;
+    display: block;
+    padding: 20px;
+    font-size: 30px;
+  }
 }
-*/
+
 /*
 ------------------------------------------------------------------------------------------------
 -------
@@ -567,7 +571,10 @@ CONTACT STYLES
 
 @media (min-width: 770px) {
   .logo {
-    width: 90%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30%;
   }
 }
 
@@ -705,6 +712,7 @@ body.open {
 */
 #nav-ul {
   list-style-type: none;
+  font-weight: 100;
 }
 
 /*
@@ -748,7 +756,7 @@ Media Query (Universal)
     position: absolute;
     /* Makes sure the navigation bar is there ALWAYS, past mobile mode */
     top: 10px;
-    right: 300px;
+    right: 200px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -808,7 +816,7 @@ PROCESS STYLES
   margin: 0;
   background-size: cover;
   background-color: none;
-  background-image: url("images/process-background");
+  background-image: url("../images/process-background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
