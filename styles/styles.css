@@ -759,7 +759,13 @@ Media Query (Universal)
   text-align: left;
   position: absolute;
   right: 50%;
-  margin-top: -50px;
+  margin-top: -70px;
+}
+
+.contact-form h2 {
+  font-size: 2.5em;
+  font-weight: lighter;
+  text-align: center;
 }
 
 footer {
@@ -772,6 +778,13 @@ footer {
   text-align: center;
 }
 
+/*
+------------------------------------------------------------------------------------------------
+-------
+INDEX STYLES
+-------
+------------------------------------------------------------------------------------------------
+*/
 .body-index {
   margin: 0;
   background-size: cover;
@@ -784,6 +797,32 @@ footer {
   height: auto;
 }
 
+/*
+------------------------------------------------------------------------------------------------
+-------
+PROCESS STYLES
+-------
+------------------------------------------------------------------------------------------------
+*/
+.body-process {
+  margin: 0;
+  background-size: cover;
+  background-color: none;
+  background-image: url("images/process-background");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+------------------------------------------------------------------------------------------------
+-------
+ABOUT STYLES
+-------
+------------------------------------------------------------------------------------------------
+*/
 .body-about-index {
   margin: 0;
   background-size: cover;
@@ -796,6 +835,14 @@ footer {
   height: auto;
 }
 
+/*
+------------------------------------------------------------------------------------------------
+-------
+CONTACT STYLES
+
+-------
+------------------------------------------------------------------------------------------------
+*/
 .body-contact {
   margin: 0;
   background-size: cover;
