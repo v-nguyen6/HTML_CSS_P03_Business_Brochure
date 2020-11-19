@@ -432,33 +432,69 @@ html {
   max-width: 20%;
 }
 
-@media (min-width: 700px) {
-  .explorebutton {
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-    margin: 20px;
-    margin-top: 50px;
-    background-color: #363636;
-    outline: 4px solid #6e0d0d;
-    outline-offset: 15px;
-    text-align: center;
-  }
+/* Offset Button Styles */
+.btn-explore {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
 }
 
-@media (min-width: 770px) {
-  .explorebutton {
-    color: white;
-    font-size: .3em;
-    padding: 10px;
-    margin: 20px;
-    margin-top: 50px;
-    background-color: #363636;
-    outline: 4px solid #6e0d0d;
-    outline-offset: 15px;
-    text-align: center;
-    max-width: 10%;
-  }
+.btn-explore:before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  border: 4px solid white;
+}
+
+.btn-txt {
+  background-color: #363636;
+  display: block;
+  padding: 30px;
+  font-size: 20px;
+}
+
+/*
+.explorebutton {
+
+    @media (min-width: $tabletMedium)
+    
+    {
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        margin: 20px;
+        margin-top: 50px;
+        background-color:$button_color;
+        outline: 4px solid #6e0d0d;
+        outline-offset: 15px;
+        text-align: center;
+    }
+
+    @media (min-width: $desktopSmall)
+    
+    {
+        color: white;
+        font-size: .3em;
+        padding: 10px;
+        margin: 20px;
+        margin-top: 50px;
+        background-color:$button_color;
+        outline: 4px solid #6e0d0d;
+        outline-offset: 15px;
+        text-align: center;
+        max-width: 10%;
+    }
+
+}
+*/
+.form-group {
+  display: -ms-grid;
+  display: grid;
 }
 
 .wrapper {
