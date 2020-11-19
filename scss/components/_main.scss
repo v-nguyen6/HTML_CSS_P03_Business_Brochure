@@ -87,7 +87,7 @@
         font-size: 20px;
         line-height: 30px;
     }
-    
+
     // Process Page Styling 
     .process-banner {
         width: 100%;
@@ -100,7 +100,12 @@
 
 // @media
     // contact form - @media
-
+    @media (max-width: $tabletMedium) {
+        .contact-form {
+            padding: 0px;
+            
+        }
+    }
 
 
     // about us - @media
