@@ -16,7 +16,7 @@ nav a {
 nav a:focus, 
 nav a:active, 
 nav a:hover {
-    color: #a38068; 
+    color: #c6641a; 
     text-decoration: none;
 }
 
@@ -94,6 +94,7 @@ body.open {
     margin-top: 30px;
     margin-right: 60px;
     list-style-type: none;
+    letter-spacing: 8px;
 }
   
 .nav-a {
@@ -101,11 +102,20 @@ body.open {
     text-decoration: none;
     font-size: 1.3em;
     text-transform: uppercase;
+    padding: 0 0 20px 0;
+}
+
+.nav-a-about {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    padding: 0 0 20px 0;
 }
 
 /* Main Nav Underline */
-.nav-a:hover {
-    border-bottom: 3px solid #a38068;
+.nav-a:hover, .nav-a-about:hover {
+    border-bottom: 3px solid #c6641a;
 }
 
 /*
