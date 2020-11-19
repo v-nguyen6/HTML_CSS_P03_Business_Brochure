@@ -1,8 +1,5 @@
 // Main Style Guide
 
-// main selectors
-    // contact form - main selectors
-
 // .class selectors
     // contact form - .class selectors
 
@@ -72,6 +69,31 @@
         margin-right: auto;
     }
 
+    // About Page Styles
+
+    .about-us h2, .craftsmanship h2 {
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        font-family: $navFont;
+        font-weight: lighter;
+        padding-bottom: 30px;
+        padding-top: 70px;
+    }
+
+    .about-us, .craftsmanship {
+        color: white;
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    // Process Page Styling 
+    .process-banner {
+        width: 100%;
+        height: 80vh;
+        background-color: green;
+    }
 // #id selectors
     // contact form - #id selectors
 
@@ -80,38 +102,20 @@
     // contact form - @media
 
 
-// About Page Styles
 
-.about-us h2, .craftsmanship h2 {
-    color: white;
-    font-size: 40px;
-    text-align: center;
-    font-family: $navFont;
-    font-weight: lighter;
-    padding-bottom: 30px;
-    padding-top: 70px;
-}
+    // about us - @media
+    @media (min-width: $desktopRegular)
+    {
+        .about-section {
+            margin-top: 15%;
+            padding: 60px;
+        }
 
-.about-us, .craftsmanship {
-    color: white;
-    font-weight: 100;
-    font-size: 20px;
-    line-height: 30px;
-}
-
-@media (min-width: $desktopRegular)
-{
-    .about-section {
-        margin-top: 15%;
-        padding: 60px;
+        .hr-about {
+            width: 10%;  
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+        }
     }
-
-    .hr-about {
-        width: 10%;  
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 30px;
-    }
-}
-
 
