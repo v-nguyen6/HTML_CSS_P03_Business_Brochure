@@ -439,25 +439,26 @@ INDEX STYLES
   padding-right: 90px;
   text-align: left;
   top: 50%;
-  font-size: 50px;
+  font-size: 20px;
   width: 50%;
 }
 
 @media (min-width: 700px) {
   .tagline-container {
-    font-size: 50px;
+    font-size: 30px;
   }
 }
 
 @media (min-width: 770px) {
   .tagline-container {
-    font-size: 60px;
+    font-size: 40px;
   }
 }
 
 @media (min-width: 1120px) {
   .tagline-container {
-    font-size: 90px;
+    font-size: 60px;
+    width: 50%;
   }
 }
 
@@ -485,13 +486,13 @@ INDEX STYLES
   left: 20px;
   width: calc(100% - 10px);
   height: calc(100% - 10px);
-  border: 4px solid #363636;
+  border: 4px solid white;
 }
 
 .btn-txt {
   background-color: #363636;
   display: block;
-  padding: 30px;
+  padding: 20px;
   font-size: 20px;
 }
 
@@ -501,30 +502,13 @@ INDEX STYLES
     @media (min-width: $tabletMedium)
     
     {
-        color: white;
-        font-size: 20px;
-        padding: 10px;
-        margin: 20px;
-        margin-top: 50px;
-        background-color:$button_color;
-        outline: 4px solid #6e0d0d;
-        outline-offset: 15px;
-        text-align: center;
+       
     }
 
     @media (min-width: $desktopSmall)
     
     {
-        color: white;
-        font-size: .3em;
-        padding: 10px;
-        margin: 20px;
-        margin-top: 50px;
-        background-color:$button_color;
-        outline: 4px solid #6e0d0d;
-        outline-offset: 15px;
-        text-align: center;
-        max-width: 10%;
+        
     }
 
 }

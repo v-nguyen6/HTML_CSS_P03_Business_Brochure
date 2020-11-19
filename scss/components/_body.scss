@@ -17,24 +17,27 @@ INDEX STYLES
     padding-right: 90px;
     text-align: left;
     top: 50%;
-    font-size: 50px;
+    font-size: 20px;
     width: 50%;
+    
+
 
     // Tag Line Container Media Queries
 
     @media (min-width: $tabletMedium) // 700px
     {
-        font-size: 50px;
+        font-size: 30px;
     }
 
     @media (min-width: $desktopSmall)
     {
-       font-size: 60px; 
+       font-size: 40px; 
     }
 
-    @media (min-width: $desktopRegular)
+    @media (min-width: $desktopRegular) // 1120px
     {
-        font-size: 90px; 
+        font-size: 60px; 
+        width: 50%;
     }
 }
 
@@ -45,10 +48,6 @@ INDEX STYLES
 }
 
 // Explore Button Styles
-
-.explorebutton {
-    max-width: 20%;
-}
 
 // Explore Button Media Queries
 
@@ -70,49 +69,49 @@ INDEX STYLES
     left: 20px;
     width: calc(100% - 10px);
     height: calc(100% - 10px);
-    border: 4px solid $button_color;
+    border: 4px solid white;
 }
   
 .btn-txt {
     background-color: $button_color;
     display: block;
-    padding: 30px;
+    padding: 20px;
     font-size: 20px;
 }
 
-/*
+
 .explorebutton {
 
-    @media (min-width: $tabletMedium)
-    
-    {
+    @media (min-width: $desktopSmall){
+        
+        .btn-explore {
         color: white;
-        font-size: 20px;
+        text-decoration: none;
+        display: inline-block;
         padding: 10px;
-        margin: 20px;
-        margin-top: 50px;
-        background-color:$button_color;
-        outline: 4px solid #6e0d0d;
-        outline-offset: 15px;
-        text-align: center;
-    }
-
-    @media (min-width: $desktopSmall)
+        position: relative;
+        }
     
-    {
-        color: white;
-        font-size: .3em;
-        padding: 10px;
-        margin: 20px;
-        margin-top: 50px;
-        background-color:$button_color;
-        outline: 4px solid #6e0d0d;
-        outline-offset: 15px;
-        text-align: center;
-        max-width: 10%;
+        .btn-explore:before {
+        content: "";
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
+        border: 4px solid white;
+        }
+    
+        .btn-txt {
+        background-color: $button_color;
+        display: block;
+        padding: 20px;
+        font-size: 30px;
+        }
     }
-
 }
+
+
 */
 
 /*
@@ -148,5 +147,4 @@ CONTACT STYLES
 */
 .form-group {
     display: grid;
-
 }
