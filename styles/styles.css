@@ -2,6 +2,36 @@
 	    date: 2020-11-16
 	    title: keep it cheesy - scss
 */
+/* 
+------------------
+Site Variables
+------------------
+*/
+/* 
+------------------
+Background Colors
+------------------
+*/
+/* 
+------------------
+Text Colors
+------------------
+*/
+/* 
+------------------
+Fonts
+------------------
+*/
+/* 
+------------------
+Dimensions
+------------------
+*/
+/* 
+------------------
+/Breakpoints
+------------------
+*/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -536,6 +566,10 @@ HTML Element Selectors (Index/About/Contact/Process Pages)
 ------------------------------------------------------------------------------------------------
 */
 /*--- Typography & General Layout (Universal) ---*/
+nav a {
+  font-family: "Josefin Sans", sans-serif;
+}
+
 /*--- Nav Bar Interactions (Universal) ---*/
 /* Navigation Interactions */
 nav a:focus,
