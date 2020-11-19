@@ -934,14 +934,14 @@ Process Page
 
 .process-banner-header {
   position: absolute;
-  top: 10%;
+  top: 60%;
   right: 6%;
   text-transform: uppercase;
 }
 
 .process-banner-btn {
   position: absolute;
-  top: 1%;
+  top: 50%;
   right: 1%;
   -webkit-transform: translate(0%, -20%);
           transform: translate(0%, -20%);
