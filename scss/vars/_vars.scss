@@ -1,25 +1,77 @@
-// Site Variables
+// Master Variables Page
+/* 
+------------------
+Site Variables
+------------------
+*/
+// --- Global Variables
+// Nav Bar
+// Header
+// Footer
+
+
+// --- Index Page 
 $background_color: #efefef;
 $secondary_color: #c8beb3;
 $button_color: #363636;
 $wrapper_color: #ffffff;
 
-// Background Colors
+// --- About Page 
 
 
-// Text Colors
-$txtColor: white;
-
-// Fonts
-// $headingFont: ;
-// $bodyFont: ;
+// --- Process Page
 
 
-//Dimensions
+// --- Contact Page
+
+
+
+/* 
+------------------
+Background Colors
+------------------
+*/
+$color1: #B3CFF2;
+$color2: #BF964B;
+$color3: #A68051;
+$color4: #F2BE7E;
+$color5: #734C36;
+
+
+/* 
+------------------
+Text Colors
+------------------
+*/
+$navFontColor: black;
+$navFontHoverColor: #734C36;
+$headerFontColor: black;
+$bodyFontColor: black;
+
+
+/* 
+------------------
+Fonts
+------------------
+*/
+$navFont: 'Josefin Sans', sans-serif;
+$headingFont: 'Merriweather', serif;
+$bodyFont: 'Open Sans', sans-serif;
+
+
+/* 
+------------------
+Dimensions
+------------------
+*/
 $siteWidth: 1000px;
 
 
-//Breakpoints
+/* 
+------------------
+/Breakpoints
+------------------
+*/
 $mobileMedium: 500px;
 $tabletSmall: 670px;
 $tabletMedium: 700px;

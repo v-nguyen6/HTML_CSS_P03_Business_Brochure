@@ -2,6 +2,36 @@
 	    date: 2020-11-16
 	    title: keep it cheesy - scss
 */
+/* 
+------------------
+Site Variables
+------------------
+*/
+/* 
+------------------
+Background Colors
+------------------
+*/
+/* 
+------------------
+Text Colors
+------------------
+*/
+/* 
+------------------
+Fonts
+------------------
+*/
+/* 
+------------------
+Dimensions
+------------------
+*/
+/* 
+------------------
+/Breakpoints
+------------------
+*/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -394,6 +424,13 @@ html {
   height: 100%;
 }
 
+/*
+------------------------------------------------------------------------------------------------
+-------
+INDEX STYLES
+-------
+------------------------------------------------------------------------------------------------
+*/
 .tagline-container {
   left: 0;
   margin-top: -100px;
@@ -492,6 +529,28 @@ html {
 
 }
 */
+/*
+------------------------------------------------------------------------------------------------
+-------
+PROCESS STYLES
+-------
+------------------------------------------------------------------------------------------------
+*/
+/*
+------------------------------------------------------------------------------------------------
+-------
+ABOUT STYLES
+-------
+------------------------------------------------------------------------------------------------
+*/
+/*
+------------------------------------------------------------------------------------------------
+-------
+CONTACT STYLES
+
+-------
+------------------------------------------------------------------------------------------------
+*/
 .form-group {
   display: -ms-grid;
   display: grid;
@@ -536,6 +595,10 @@ HTML Element Selectors (Index/About/Contact/Process Pages)
 ------------------------------------------------------------------------------------------------
 */
 /*--- Typography & General Layout (Universal) ---*/
+nav a {
+  font-family: "Josefin Sans", sans-serif;
+}
+
 /*--- Nav Bar Interactions (Universal) ---*/
 /* Navigation Interactions */
 nav a:focus,
@@ -712,6 +775,7 @@ Media Query (Universal)
   text-align: left;
   position: absolute;
   right: 50%;
+  margin-top: -50px;
 }
 
 footer {
@@ -754,9 +818,9 @@ footer {
   background-color: none;
   background-image: url("/images/contact-bg2.png");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center;
-  max-width: 1920px;
+  max-width: 100%;
   height: auto;
 }
 /*# sourceMappingURL=styles.css.map */
