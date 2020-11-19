@@ -21,7 +21,6 @@ INDEX STYLES
 }
 
 
-
 /*
 ------------------------------------------------------------------------------------------------
 -------
@@ -29,7 +28,17 @@ PROCESS STYLES
 -------
 ------------------------------------------------------------------------------------------------
 */
-
+.body-process {
+    margin: 0;
+    background-size: cover;
+    background-color: none;
+    background-image: url("../images/process-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    max-width: 100%;
+    height: auto;.
+}
 
 
 
