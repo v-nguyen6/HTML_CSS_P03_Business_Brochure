@@ -942,19 +942,6 @@ Process Page
   text-align: center;
   color: #F2BE7E;
   font-size: 1em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .process-banner h1 {
@@ -1089,6 +1076,21 @@ Media Query for Process Page
 */
 /*--- Mobile ---*/
 @media (min-width: 500px) {
+  .process-banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .process-stage1 h3 {
     position: absolute;
     top: 17%;
@@ -1121,19 +1123,30 @@ Media Query for Process Page
 
 /*--- Tablet ---*/
 @media (min-width: 700px) {
-  .process-button-1,
-  .process-button-2 {
-    -webkit-box-align: none;
-        -ms-flex-align: none;
-            align-items: none;
-    -webkit-box-pack: none;
-        -ms-flex-pack: none;
-            justify-content: none;
+  .process-banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    display: inline-block;
+  }
+  .process-header {
+    margin-top: 90px;
+    font-size: 2.8em;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+  }
+  .process-button-1,
+  .process-button-2 {
+    margin-top: 0;
   }
   .process-stage1 h3 {
     position: absolute;
@@ -1154,19 +1167,30 @@ Media Query for Process Page
 
 /*--- Desktop ---*/
 @media (min-width: 1000px) {
-  .process-button-1,
-  .process-button-2 {
-    -webkit-box-align: none;
-        -ms-flex-align: none;
-            align-items: none;
-    -webkit-box-pack: none;
-        -ms-flex-pack: none;
-            justify-content: none;
+  .process-banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    display: inline-block;
+  }
+  .process-header {
+    margin-top: 90px;
+    font-size: 2.8em;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+  }
+  .process-button-1,
+  .process-button-2 {
+    margin-top: 0;
   }
   .process-stage1 h3 {
     position: absolute;

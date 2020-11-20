@@ -154,10 +154,6 @@ Process Page
     text-align: center;
     color: $color4;
     font-size: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
 
 .process-banner h1 {
@@ -308,7 +304,15 @@ Media Query for Process Page
 /*--- Mobile ---*/
 @media (min-width:500px) {
 
-    // Heading Button
+    // Header
+    .process-banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
     // Container Text Decoration
     //---------------Container 1
     .process-stage1 h3 {
@@ -351,14 +355,21 @@ Media Query for Process Page
 /*--- Tablet ---*/
 @media (min-width:700px) {
 
-    //Header Button
+    //Header 
+    .process-banner {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .process-header {
+        margin-top: 90px;
+        font-size: 2.8em;
+        order: -1;
+        flex: 1 0 100%;   
+    }
     .process-button-1, 
     .process-button-2 {
-        align-items: none;
-        justify-content: none;
-        flex-direction: row;
-        display: inline-block;
-        
+        margin-top:0;
     }
 
     // Container Text Decoration
@@ -388,13 +399,21 @@ Media Query for Process Page
 /*--- Desktop ---*/
 @media (min-width:1000px) {
 
-    //Header Button
+    //Header 
+    .process-banner {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .process-header {
+        margin-top: 90px;
+        font-size: 2.8em;
+        order: -1;
+        flex: 1 0 100%;   
+    }
     .process-button-1, 
     .process-button-2 {
-        align-items: none;
-        justify-content: none;
-        flex-direction: row;
-        display: inline-block;
+        margin-top:0;
     }
 
     // Container Text Decoration
