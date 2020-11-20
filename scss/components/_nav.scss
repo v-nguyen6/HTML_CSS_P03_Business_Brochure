@@ -128,9 +128,6 @@ transition: transform 250ms ease-in-out;
 }
 
 
-
-
-
 /*
 ------------------------------------------------------------------------------------------------
 -------
@@ -169,7 +166,7 @@ Media Query (Universal)
     #nav-ul {
         position: absolute; /* Makes sure the navigation bar is there ALWAYS, past mobile mode */
         top: 10px;
-        right: 300px;
+        right: 180px;
         display: flex;
     }
 
