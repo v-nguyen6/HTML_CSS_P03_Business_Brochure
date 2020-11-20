@@ -200,7 +200,6 @@ CONTACT STYLES
 // remove background-image on mobile, only show off-white background color
 @media (max-width: $tabletMedium) {
     .body-contact {
-        background-color: #efefef;
         background-image: none;
     }
 }
