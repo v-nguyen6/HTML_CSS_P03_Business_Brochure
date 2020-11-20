@@ -937,16 +937,9 @@ Process Page
 --------------------------------------------
 */
 .process-banner {
-  position: relative;
   text-align: center;
-  color: #B3CFF2;
+  color: #F2BE7E;
   font-size: 1em;
-}
-
-.process-banner-header {
-  position: absolute;
-  top: 200px;
-  text-transform: uppercase;
 }
 
 .process-banner-btn {
@@ -958,7 +951,9 @@ Process Page
 
 .process-button-1,
 .process-button-2 {
-  background-color: #B3CFF2;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  background-color: #F2BE7E;
   border: none;
   color: white;
   padding: 13px 25px;
@@ -1144,7 +1139,7 @@ PROCESS STYLES
   margin: 0;
   background-size: cover;
   background-color: none;
-  background-image: url("/images/process/process_background.jpg");
+  background-image: url("/images/process/cheese-cellar-1-final.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
