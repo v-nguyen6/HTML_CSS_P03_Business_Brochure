@@ -1000,22 +1000,6 @@ Process Page
   background-size: cover;
 }
 
-.process-stage3 h3 {
-  position: absolute;
-  top: 20%;
-  right: 10%;
-  font-size: 2em;
-  text-transform: uppercase;
-}
-
-.process-stage3 p {
-  position: absolute;
-  top: 40%;
-  right: 10%;
-  left: 45%;
-  font-size: 1em;
-}
-
 .process-stage4 {
   position: relative;
   max-width: 100%;
@@ -1105,18 +1089,36 @@ Media Query for Process Page
     left: 32%;
     font-size: 1.1em;
     font-weight: bold;
+    line-height: normal;
   }
   .process-stage2 h3 {
     position: absolute;
-    top: 20%;
+    top: 17%;
     left: 10%;
     font-size: 2em;
+    color: #734C36;
   }
   .process-stage2 p {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 10%;
     right: 45%;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .process-stage3 h3 {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+  .process-stage3 p {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    left: 45%;
     font-size: 1em;
   }
 }
@@ -1162,6 +1164,23 @@ Media Query for Process Page
     left: 32%;
     font-size: 1.1em;
     font-weight: bold;
+    line-height: normal;
+  }
+  .process-stage2 h3 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 2em;
+    color: #734C36;
+  }
+  .process-stage2 p {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    right: 50%;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: normal;
   }
 }
 
@@ -1206,6 +1225,23 @@ Media Query for Process Page
     left: 60%;
     font-size: 1.1em;
     font-weight: normal;
+    line-height: 1.6;
+  }
+  .process-stage2 h3 {
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    font-size: 2em;
+    color: #734C36;
+  }
+  .process-stage2 p {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    right: 50%;
+    font-size: 1.1em;
+    font-weight: normal;
+    line-height: 1.6;
   }
 }
 

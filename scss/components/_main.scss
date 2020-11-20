@@ -224,22 +224,7 @@ Process Page
     background-position: center;
     background-size: cover;
 }
-// Container Text Decoration
-.process-stage3 h3 {
-    position: absolute;
-    top: 20%;
-    right: 10%;
-    font-size: 2em;
-    text-transform: uppercase;
-}
 
-.process-stage3 p {
-    position: absolute;
-    top: 40%;
-    right: 10%;
-    left: 45%;
-    font-size: 1em;
-}
 
 // ------------  Container 4
 .process-stage4 {
@@ -323,7 +308,6 @@ Media Query for Process Page
         color: $color5;
         //text-transform: uppercase;
     }
-
     .process-stage1 p {
         position: absolute;
         top: 35%;
@@ -331,22 +315,41 @@ Media Query for Process Page
         left: 32%;
         font-size: 1.1em;
         font-weight: bold;
+        line-height: normal;
     }
     
     //---------------Container 2
     .process-stage2 h3 {
         position: absolute;
-        top: 20%;
+        top: 17%;
         left: 10%;
         font-size: 2em;
+        color: $color5;
         
     }
-
     .process-stage2 p {
         position: absolute;
-        top: 40%;
+        top: 30%;
         left: 10%;
         right: 45%;
+        font-size: 1.1em;
+        font-weight: bold;
+        line-height: normal;
+    }
+
+    //---------------Container 3
+    .process-stage3 h3 {
+        position: absolute;
+        top: 20%;
+        right: 10%;
+        font-size: 2em;
+        text-transform: uppercase;
+    }
+    .process-stage3 p {
+        position: absolute;
+        top: 40%;
+        right: 10%;
+        left: 45%;
         font-size: 1em;
     }
 
@@ -382,7 +385,6 @@ Media Query for Process Page
         color: $color5;
         //text-transform: uppercase;
     }
-
     .process-stage1 p {
         position: absolute;
         top: 35%;
@@ -390,10 +392,29 @@ Media Query for Process Page
         left: 32%;
         font-size: 1.1em;
         font-weight: bold;
+        line-height: normal;
+    }
+
+    //---------------Container 2
+    .process-stage2 h3 {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        font-size: 2em;
+        color: $color5;
+        
+    }
+    .process-stage2 p {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        right: 50%;
+        font-size: 1.1em;
+        font-weight: bold;
+        line-height: normal;
     }
 
 }
-
 
 
 /*--- Desktop ---*/
@@ -433,6 +454,26 @@ Media Query for Process Page
         left: 60%;
         font-size: 1.1em;
         font-weight: normal;
+        line-height: 1.6;
+    }
+
+    //---------------Container 2
+    .process-stage2 h3 {
+        position: absolute;
+        top: 17%;
+        left: 10%;
+        font-size: 2em;
+        color: $color5;
+        
+    }
+    .process-stage2 p {
+        position: absolute;
+        top: 35%;
+        left: 10%;
+        right: 50%;
+        font-size: 1.1em;
+        font-weight: normal;
+        line-height: 1.6;
     }
 
 
