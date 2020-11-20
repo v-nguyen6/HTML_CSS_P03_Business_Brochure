@@ -721,7 +721,7 @@ body.open {
   padding: 0 0 20px 0;
 }
 
-.nav-a-about {
+.nav-a-white {
   color: white;
   text-decoration: none;
   font-size: 1.3em;
@@ -731,7 +731,7 @@ body.open {
 
 /* Main Nav Hover Underline */
 .nav-a:after, .nav-a:before,
-.nav-a-about:after, .nav-a-about:before {
+.nav-a-white:after, .nav-a-white:before {
   display: block;
   content: '';
   border-bottom: solid 3px #c6641a;
@@ -746,7 +746,7 @@ body.open {
 }
 
 .nav-a:hover:after, .nav-a:hover:before,
-.nav-a-about:hover:after, .nav-a-about:hover:before {
+.nav-a-white:hover:after, .nav-a-white:hover:before {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
 }
@@ -1051,6 +1051,18 @@ Process Page
   right: 10%;
   left: 45%;
   font-size: 1em;
+}
+
+.mild-container-1 {
+  color: white;
+}
+
+.mild-container-1 h2 {
+  text-align: center;
+}
+
+.mild-container-2 {
+  color: white;
 }
 
 /*
