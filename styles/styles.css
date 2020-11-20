@@ -974,7 +974,7 @@ Process Page
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/process-stage-1.png");
+  background-image: url("/images/process/process-stage-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -984,7 +984,7 @@ Process Page
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/process-stage-2.png");
+  background-image: url("/images/process/process-stage-2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -994,7 +994,7 @@ Process Page
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/process-stage-3.png");
+  background-image: url("/images/process/process-stage-3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1004,7 +1004,7 @@ Process Page
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/process-stage-4.png");
+  background-image: url("/images/process/process-stage-4.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1014,39 +1014,50 @@ Process Page
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/process-stage-5.png");
+  background-image: url("/images/process/process-stage-5.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.mild-container-1 {
-  color: white;
+.type-mild {
+  position: relative;
+  max-width: 100%;
+  height: 700px;
+  background-image: url("/images/process/type-3-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.mild-container-1 h2 {
-  text-align: center;
-  padding: 30px;
+.type-medium {
+  position: relative;
+  max-width: 100%;
+  height: 700px;
+  background-image: url("/images/process/type-5-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.mild-container-2 {
-  color: white;
-  padding: 30px;
+.type-bold {
+  position: relative;
+  max-width: 100%;
+  height: 700px;
+  background-image: url("/images/process/type-6-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.medium-container-2 {
-  color: white;
-  padding: 30px;
-}
-
-.bold-container-2 {
-  color: white;
-  padding: 30px;
-}
-
-.strong-container-2 {
-  color: white;
-  padding: 30px;
+.type-strong {
+  position: relative;
+  max-width: 100%;
+  height: 700px;
+  background-image: url("/images/process/type-1-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /*
