@@ -587,7 +587,7 @@ CONTACT STYLES
 }
 
 .logo {
-  width: 60%;
+  width: 0%;
 }
 
 @media (min-width: 500) {
@@ -602,6 +602,12 @@ CONTACT STYLES
 @media (min-width: 700px) {
   .logo {
     width: 40%;
+<<<<<<< HEAD
+=======
+    left: 0;
+    top: 0;
+    width: 30%;
+>>>>>>> parent of 0e2208c... Revert "Revert "Revert "Revert "Revert "Revert "Revert "update"""""""
   }
 }
 
@@ -613,7 +619,14 @@ CONTACT STYLES
 
 @media (min-width: 1000px) {
   .logo {
+<<<<<<< HEAD
     width: 25%;
+=======
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30%;
+>>>>>>> parent of 0e2208c... Revert "Revert "Revert "Revert "Revert "Revert "Revert "update"""""""
   }
 }
 
@@ -840,7 +853,7 @@ Media Query (Universal)
 }
 
 .fieldset-contact {
-  margin-top: 40px;
+  margin-top: 10px;
   border-width: 2.5px;
   margin-left: 20px;
 }
@@ -851,9 +864,12 @@ Media Query (Universal)
   margin-left: 90px;
   margin-bottom: 60px;
   width: 700px;
-  padding-left: 70px;
+  padding-left: 20px;
   padding-right: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+  margin-top: 12%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact-form h2 {
@@ -902,6 +918,90 @@ Media Query (Universal)
   text-transform: uppercase;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (max-width: 700px) {
+  .contact-form {
+    padding: none;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-form h2,
+  .legend-contact-form {
+    font-size: 1.25em;
+    padding: 0px;
+  }
+  .contact-form p,
+  .contact-label,
+  .contact-grey-bckgnd,
+  .form-row label {
+    font-size: 0.85em;
+  }
+  .legend-contact-form {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+@media (min-width: 1120px) {
+  .fieldset-contact {
+    margin-top: 40px;
+    border-width: 2.5px;
+    margin-left: 20px;
+  }
+  .contact-form {
+    text-align: left;
+    margin-top: 250px;
+    margin-left: 90px;
+    margin-bottom: 60px;
+    width: 700px;
+    padding-left: 70px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+  }
+  .contact-form h2 {
+    font-size: 2em;
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .legend-contact-form {
+    font-size: 1.5em;
+    font-weight: lighter;
+    text-align: center;
+    padding: 10px;
+  }
+  .basic-form p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .contact-grey-bckgnd {
+    border: none;
+    background-color: lightgrey;
+    padding: 15px;
+    margin: 5px;
+    width: 96%;
+    margin-bottom: 20px;
+    border-radius: 3px;
+  }
+  .legend-contact-form,
+  .form-row input,
+  .contact-label {
+    margin-left: 5px;
+  }
+  .basic-form p,
+  .contact-form h2 {
+    margin-left: 20px;
+  }
+  .submit {
+    width: 100px;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .about-us h2, .craftsmanship h2 {
@@ -963,31 +1063,6 @@ Media Query (Universal)
     padding-left: 90px;
     padding-right: 90px;
     margin-top: 5%;
-  }
-}
-
-@media (max-width: 700px) {
-  .contact-form {
-    padding: none;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .contact-form h2,
-  .legend-contact-form {
-    font-size: 1.25em;
-    padding: 0px;
-  }
-  .contact-form p,
-  .contact-label,
-  .contact-grey-bckgnd,
-  .form-row label {
-    font-size: 0.85em;
-  }
-  .legend-contact-form {
-    padding: 0px;
-    margin: 0px;
   }
 }
 
