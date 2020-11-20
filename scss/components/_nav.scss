@@ -152,7 +152,7 @@ Media Query (Universal)
 @media (min-width: 750px) {
     /* Hamburger Menu */
     .hamburger-menu {
-        display: none;
+        display: flex;
     }
 
     .navbar {
@@ -164,8 +164,9 @@ Media Query (Universal)
 @media (min-width: 900px) {
     /* Hamburger Menu */
     .hamburger-menu {
-        display: none;
+        display: flex;
     }
+    /*
     /* Nav Menu */
     #nav-ul {
         position: absolute; /* Makes sure the navigation bar is there ALWAYS, past mobile mode */
@@ -173,13 +174,24 @@ Media Query (Universal)
         right: 200px;
         display: flex;
         margin:0;
-
     }
+
+    .nav-a {
+        color: black;
+        text-decoration: none;
+        font-size: 1em;
+        text-transform: uppercase;
+        padding: 0 0 20px 0;
+    }
+    
 
 }
 /*--- Desktop ---*/
 @media (min-width: 1200px) {
     /* Hamburger Menu */
+    .hamburger-menu {
+        display: none;
+    }
     
     /* Nav Menu */
     #nav-ul {
