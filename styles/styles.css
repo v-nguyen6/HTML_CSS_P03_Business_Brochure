@@ -993,23 +993,6 @@ Process Page
   background-size: cover;
 }
 
-.process-stage1 h3 {
-  position: absolute;
-  top: 17%;
-  left: 45%;
-  font-size: 2em;
-  color: #734C36;
-}
-
-.process-stage1 p {
-  position: absolute;
-  top: 35%;
-  right: 10%;
-  left: 32%;
-  font-size: 1.1em;
-  font-weight: bold;
-}
-
 .process-stage2 {
   position: relative;
   max-width: 100%;
@@ -1018,21 +1001,6 @@ Process Page
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.process-stage2 h3 {
-  position: absolute;
-  top: 20%;
-  left: 10%;
-  font-size: 2em;
-}
-
-.process-stage2 p {
-  position: absolute;
-  top: 40%;
-  left: 10%;
-  right: 45%;
-  font-size: 1em;
 }
 
 .process-stage3 {
@@ -1120,8 +1088,39 @@ Media Query for Process Page
 -----------------------
 */
 /*--- Mobile ---*/
+@media (min-width: 500px) {
+  .process-stage1 h3 {
+    position: absolute;
+    top: 17%;
+    left: 45%;
+    font-size: 2em;
+    color: #734C36;
+  }
+  .process-stage1 p {
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    left: 32%;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  .process-stage2 h3 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 2em;
+  }
+  .process-stage2 p {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    right: 45%;
+    font-size: 1em;
+  }
+}
+
 /*--- Tablet ---*/
-@media (min-width: 900px) {
+@media (min-width: 700px) {
   .process-button-1,
   .process-button-2 {
     -webkit-box-align: none;
@@ -1135,11 +1134,26 @@ Media Query for Process Page
         -ms-flex-direction: row;
             flex-direction: row;
     display: inline-block;
+  }
+  .process-stage1 h3 {
+    position: absolute;
+    top: 17%;
+    left: 55%;
+    font-size: 2em;
+    color: #734C36;
+  }
+  .process-stage1 p {
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    left: 32%;
+    font-size: 1.1em;
+    font-weight: bold;
   }
 }
 
 /*--- Desktop ---*/
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .process-button-1,
   .process-button-2 {
     -webkit-box-align: none;
@@ -1154,11 +1168,20 @@ Media Query for Process Page
             flex-direction: row;
     display: inline-block;
   }
-  .process-stage1 {
-    position: relative;
-    max-width: 100%;
-    height: 700px;
-    background-image: url("/images/process/process-stage-1.jpg");
+  .process-stage1 h3 {
+    position: absolute;
+    top: 17%;
+    left: 75%;
+    font-size: 2em;
+    color: #734C36;
+  }
+  .process-stage1 p {
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    left: 60%;
+    font-size: 1.1em;
+    font-weight: normal;
   }
 }
 
