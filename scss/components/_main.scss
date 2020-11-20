@@ -183,10 +183,13 @@ Process Page
 }
 
 
-.cheese-production {
-    margin: 0;
-    //background-color: $color2;
-
+.cheese-production h2 {
+    margin: auto;
+    text-align: center;
+    font-family: $navFont;
+    font-size: 2.3em;
+    color: $color1;
+    // /text-transform: uppercase;
 }
 
 // ------------  Container 1
@@ -199,6 +202,8 @@ Process Page
     background-position: center;
     background-size: cover;
 }
+
+
 // Container Text Decoration
 .process-stage1 h3 {
     position: absolute;
@@ -334,10 +339,7 @@ Media Query for Process Page
 @media (min-width:750px) {
 
     // Heading Button
-    .process-banner {
-
-        
-    }
+    
 
 }
 
@@ -366,7 +368,14 @@ Media Query for Process Page
         justify-content: none;
         flex-direction: row;
         display: inline-block;
+    }
 
+    //Container 1
+    .process-stage1 {
+        position: relative;
+        max-width: 100%;
+        height: 700px;
+        background-image: url("/images/process/process-stage-1.jpg");
         
     }
 
