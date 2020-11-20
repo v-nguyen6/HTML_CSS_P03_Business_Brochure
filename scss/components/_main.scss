@@ -248,23 +248,7 @@ Process Page
     background-position: center;
     background-size: cover;
 }
-// Container Text Decoration
-.process-stage5 h3 {
-    position: absolute;
-    top: 20%;
-    left: 20%;
-    right: 10%;
-    font-size: 2em;
-    text-transform: uppercase;
-}
 
-.process-stage5 p {
-    position: absolute;
-    top: 40%;
-    right: 10%;
-    left: 45%;
-    font-size: 1em;
-}
 
 /*
 -----------------------
@@ -355,6 +339,26 @@ Media Query for Process Page
         top: 37%;
         left: 10%;
         right: 35%;
+        font-size: 1.1em;
+        font-weight: bold;
+        line-height: normal;
+    }
+
+    //---------------Container 5
+    .process-stage5 h3 {
+        position: absolute;
+        top: 20%;
+        left: 32%;
+        right: 10%;
+        font-size: 2em;
+        color: $color5;
+    }
+
+    .process-stage5 p {
+        position: absolute;
+        top: 40%;
+        right: 10%;
+        left: 40%;
         font-size: 1.1em;
         font-weight: bold;
         line-height: normal;
@@ -459,6 +463,26 @@ Media Query for Process Page
         line-height: normal;
     }
 
+    //---------------Container 5
+    .process-stage5 h3 {
+        position: absolute;
+        top: 20%;
+        left: 32%;
+        right: 10%;
+        font-size: 2em;
+        color: $color5;
+    }
+
+    .process-stage5 p {
+        position: absolute;
+        top: 40%;
+        right: 10%;
+        left: 40%;
+        font-size: 1.1em;
+        font-weight: bold;
+        line-height: normal;
+    }
+
 }
 
 
@@ -554,6 +578,26 @@ Media Query for Process Page
         top: 37%;
         left: 10%;
         right: 61%;
+        font-size: 1.1em;
+        font-weight: normal;
+        line-height: 1.6;
+    }
+
+    //---------------Container 5
+    .process-stage5 h3 {
+        position: absolute;
+        top: 20%;
+        left: 60%;
+        right: 8%;
+        font-size: 2em;
+        color: $color5;
+    }
+
+    .process-stage5 p {
+        position: absolute;
+        top: 40%;
+        right: 7%;
+        left: 55%;
         font-size: 1.1em;
         font-weight: normal;
         line-height: 1.6;
