@@ -563,6 +563,24 @@ CONTACT STYLES
   max-width: 1200px;
 }
 
+.wrapper main, .wrapper .main-contact {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.body-contact .wrapper {
+  max-width: 100%;
+}
+
+.body-index .wrapper footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
 .btn-menu {
   background-color: none;
   color: black;
@@ -801,14 +819,13 @@ Media Query (Universal)
 
 .contact-form {
   text-align: left;
-  position: absolute;
-  right: 50%;
+  margin-top: 250px;
+  margin-left: 90px;
+  margin-bottom: 60px;
+  width: 700px;
   padding-left: 70px;
   padding-right: 50px;
   padding-bottom: 100px;
-  margin-top: 12%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .contact-form h2 {
@@ -897,11 +914,6 @@ Media Query (Universal)
 
 footer {
   color: black;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding-bottom: 20px;
   text-align: center;
 }
 

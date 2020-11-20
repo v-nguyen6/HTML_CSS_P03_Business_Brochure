@@ -6,7 +6,23 @@
     margin: 0 auto;
     background-color: none;
     overflow: hidden;
-  
     @include mc(false, 20px, 30px);
     max-width: $siteWidth;
+
+
+
+    main, .main-contact {
+        flex: 1;
+    }
+
+    .body-contact & {
+        max-width: 100%;
+    }
+
+    .body-index & footer {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
