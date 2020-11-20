@@ -90,20 +90,39 @@
         font-size: 20px;
         line-height: 30px;
     }
-    
-    // Process Page Styling 
-    .process-banner {
-        width: 100%;
-        height: 80vh;
-        background-color: green;
-    }
+
+
 // #id selectors
     // contact form - #id selectors
 
 
 // @media
     // contact form - @media
+    @media (max-width: $tabletMedium) {
+        .contact-form {
+            padding: none;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
 
+        }
+        .contact-form h2,
+        .legend-contact-form {
+            font-size: 1.25em;
+            padding: 0px;
+        }
+        .contact-form p,
+        .contact-label,
+        .contact-grey-bckgnd,
+        .form-row label {
+            font-size: 0.85em;
+        }
+        .legend-contact-form {
+            padding: 0px;
+            margin: 0px;
+        }
+    }
 
 
     // about us - @media
@@ -122,3 +141,185 @@
         }
     }
 
+/*
+--------------------------------------------
+Process Page
+--------------------------------------------
+*/
+// Process Page Styling 
+.process-banner {
+    position: relative;
+    text-align: center;
+    color: $color1;
+    font-size: 1em;
+}
+
+.process-banner-header {
+    position: absolute;
+    top: 200px;
+    text-transform: uppercase;
+}
+
+.process-banner-btn {
+    position: absolute;
+    top: 200px;
+  
+    transform: translate(0%, -20%);
+}
+
+// Process Buttons Styling
+.process-button-1, 
+.process-button-2  {
+    background-color: $color1;
+    border: none;
+    color: white;
+    padding: 13px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 50vh 10px;
+    cursor: pointer;
+}
+
+.cheese-production {
+    margin: 0;
+    //background-color: $color2;
+
+}
+
+// ------------  Container 1
+.process-stage1 {
+    position: relative;
+    max-width: 100%;
+    height: 700px;
+    background-image: url("/images/process/process-stage-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+// Container Text Decoration
+.process-stage1 h3 {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.process-stage1 p {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    left: 45%;
+    font-size: 1em;
+}
+
+// ------------  Container 2
+.process-stage2 {
+    position: relative;
+    max-width: 100%;
+    height: 700px;
+    background-image: url("/images/process/process-stage-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+// Container Text Decoration
+.process-stage2 h3 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.process-stage2 p {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    right: 45%;
+    font-size: 1em;
+}
+
+// ------------  Container 3
+.process-stage3 {
+    position: relative;
+    max-width: 100%;
+    height: 700px;
+    background-image: url("/images/process/process-stage-3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+// Container Text Decoration
+.process-stage3 h3 {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.process-stage3 p {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    left: 45%;
+    font-size: 1em;
+}
+
+// ------------  Container 4
+.process-stage4 {
+    position: relative;
+    max-width: 100%;
+    height: 700px;
+    background-image: url("/images/process/process-stage-4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+// Container Text Decoration
+.process-stage4 h3 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.process-stage4 p {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    right: 45%;
+    font-size: 1em;
+}
+
+// ------------  Container 5
+.process-stage5 {
+    position: relative;
+    max-width: 100%;
+    height: 700px;
+    background-image: url("/images/process/process-stage-5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+// Container Text Decoration
+.process-stage5 h3 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 10%;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.process-stage5 p {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    left: 45%;
+    font-size: 1em;
+}
