@@ -160,11 +160,16 @@ Process Page
     flex-direction: column;
 }
 
+.process-banner h1 {
+    font-family: $navFont;
+    //text-transform: uppercase;
+}
+
 
 // Process Buttons Styling
 .process-button-1, 
 .process-button-2  {
-    font-family: $navFont;
+    font-family: $headingFont;
     text-transform: uppercase;
     background-color: $color4;
     color: $color5;
@@ -319,3 +324,52 @@ Process Page
     left: 45%;
     font-size: 1em;
 }
+
+/*
+-----------------------
+Media Query for Process Page
+-----------------------
+*/
+/*--- Mobile ---*/
+@media (min-width:750px) {
+
+    // Heading Button
+    .process-banner {
+
+        
+    }
+
+}
+
+/*--- Tablet ---*/
+@media (min-width:900px) {
+
+    //Header Button
+    .process-button-1, 
+    .process-button-2 {
+        align-items: none;
+        justify-content: none;
+        flex-direction: row;
+        display: inline-block;
+        
+    }
+
+}
+
+/*--- Desktop ---*/
+@media (min-width:1200px) {
+
+    //Header Button
+    .process-button-1, 
+    .process-button-2 {
+        align-items: none;
+        justify-content: none;
+        flex-direction: row;
+        display: inline-block;
+
+        
+    }
+
+
+}
+

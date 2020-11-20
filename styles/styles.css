@@ -957,9 +957,13 @@ Process Page
           flex-direction: column;
 }
 
+.process-banner h1 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
 .process-button-1,
 .process-button-2 {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Merriweather", serif;
   text-transform: uppercase;
   background-color: #F2BE7E;
   color: #734C36;
@@ -1104,6 +1108,48 @@ Process Page
   right: 10%;
   left: 45%;
   font-size: 1em;
+}
+
+/*
+-----------------------
+Media Query for Process Page
+-----------------------
+*/
+/*--- Mobile ---*/
+/*--- Tablet ---*/
+@media (min-width: 900px) {
+  .process-button-1,
+  .process-button-2 {
+    -webkit-box-align: none;
+        -ms-flex-align: none;
+            align-items: none;
+    -webkit-box-pack: none;
+        -ms-flex-pack: none;
+            justify-content: none;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    display: inline-block;
+  }
+}
+
+/*--- Desktop ---*/
+@media (min-width: 1200px) {
+  .process-button-1,
+  .process-button-2 {
+    -webkit-box-align: none;
+        -ms-flex-align: none;
+            align-items: none;
+    -webkit-box-pack: none;
+        -ms-flex-pack: none;
+            justify-content: none;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    display: inline-block;
+  }
 }
 
 footer {
