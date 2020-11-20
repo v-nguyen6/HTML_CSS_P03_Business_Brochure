@@ -590,7 +590,7 @@ CONTACT STYLES
   width: 60%;
 }
 
-@media (min-width: 770px) {
+@media (min-width: 500) {
   .logo {
     position: absolute;
     left: 0;
@@ -601,13 +601,19 @@ CONTACT STYLES
 
 @media (min-width: 700px) {
   .logo {
-    width: 60%;
+    width: 40%;
+  }
+}
+
+@media (min-width: 900px) {
+  .logo {
+    width: 25%;
   }
 }
 
 @media (min-width: 1000px) {
   .logo {
-    width: 30%;
+    width: 25%;
   }
 }
 
@@ -781,7 +787,9 @@ Media Query (Universal)
 @media (min-width: 750px) {
   /* Hamburger Menu */
   .hamburger-menu {
-    display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .navbar {
     height: 100%;
@@ -792,9 +800,12 @@ Media Query (Universal)
 @media (min-width: 900px) {
   /* Hamburger Menu */
   .hamburger-menu {
-    display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
-  /* Nav Menu */
+  /*
+    /* Nav Menu */
   #nav-ul {
     position: absolute;
     /* Makes sure the navigation bar is there ALWAYS, past mobile mode */
@@ -805,11 +816,17 @@ Media Query (Universal)
     display: flex;
     margin: 0;
   }
+  .nav-a {
+    font-size: 0.7em;
+  }
 }
 
 /*--- Desktop ---*/
 @media (min-width: 1200px) {
   /* Hamburger Menu */
+  .hamburger-menu {
+    display: none;
+  }
   /* Nav Menu */
   #nav-ul {
     position: absolute;
@@ -1516,81 +1533,6 @@ Media Query for Process Page
     font-size: 1.1em;
     font-weight: normal;
     line-height: 1.6;
-  }
-  .type-mild h2 {
-    position: absolute;
-    top: 4%;
-    left: 38%;
-    font-size: 2.9em;
-    color: #B3CFF2;
-  }
-  .type-mild h3 {
-    position: absolute;
-    top: 20%;
-    left: 76%;
-    font-size: 2.1em;
-    color: #BF964B;
-  }
-  .type-mild p {
-    position: absolute;
-    top: 28%;
-    right: 3%;
-    left: 76%;
-    color: white;
-    font-size: 1.4em;
-    font-weight: bold;
-    line-height: normal;
-  }
-  .type-medium h3 {
-    position: absolute;
-    top: 10%;
-    left: 5%;
-    font-size: 2.1em;
-    color: #BF964B;
-  }
-  .type-medium p {
-    position: absolute;
-    top: 20%;
-    left: 5%;
-    right: 70%;
-    color: white;
-    font-size: 1.4em;
-    font-weight: bold;
-    line-height: normal;
-  }
-  .type-bold h3 {
-    position: absolute;
-    top: 16%;
-    left: 68%;
-    font-size: 2.1em;
-    color: #BF964B;
-  }
-  .type-bold p {
-    position: absolute;
-    top: 26%;
-    right: 6%;
-    left: 68%;
-    color: white;
-    font-size: 1.4em;
-    font-weight: bold;
-    line-height: normal;
-  }
-  .type-strong h3 {
-    position: absolute;
-    top: 15%;
-    left: 7%;
-    font-size: 2.1em;
-    color: #BF964B;
-  }
-  .type-strong p {
-    position: absolute;
-    top: 24%;
-    left: 7%;
-    right: 70%;
-    color: white;
-    font-size: 1.4em;
-    font-weight: bold;
-    line-height: normal;
   }
 }
 
