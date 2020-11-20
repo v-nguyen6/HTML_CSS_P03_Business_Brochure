@@ -986,7 +986,7 @@ Process Page
 .process-stage1 {
   position: relative;
   max-width: 100%;
-  height: 700px;
+  height: 600px;
   background-image: url("/images/process/process-stage-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -995,18 +995,19 @@ Process Page
 
 .process-stage1 h3 {
   position: absolute;
-  top: 20%;
-  right: 10%;
+  top: 17%;
+  left: 45%;
   font-size: 2em;
-  text-transform: uppercase;
+  color: #734C36;
 }
 
 .process-stage1 p {
   position: absolute;
-  top: 40%;
+  top: 35%;
   right: 10%;
-  left: 45%;
-  font-size: 1em;
+  left: 32%;
+  font-size: 1.1em;
+  font-weight: bold;
 }
 
 .process-stage2 {
@@ -1024,7 +1025,6 @@ Process Page
   top: 20%;
   left: 10%;
   font-size: 2em;
-  text-transform: uppercase;
 }
 
 .process-stage2 p {
