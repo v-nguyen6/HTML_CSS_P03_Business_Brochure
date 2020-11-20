@@ -12,7 +12,7 @@
 
 
 .logo {
-    width: 0%;
+    width: 60%;
 
     @media (min-width: 500)
     {
@@ -25,9 +25,6 @@
     @media (min-width: 700px)
     {
         width: 40%;
-        left:0;
-        top:0;
-        width: 30%;
     }
 
     @media (min-width: 900px)
@@ -37,9 +34,6 @@
 
     @media (min-width: 1000px)
     {
-        position:absolute;
-        left:0;
-        top:0;
-        width: 30%;
+        width: 25%;
     }
 }
