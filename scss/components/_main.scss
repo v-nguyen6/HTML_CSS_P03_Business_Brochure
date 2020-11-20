@@ -148,23 +148,18 @@ Process Page
 */
 // Process Page Styling 
 .process-banner {
-  
+    height: 500px;
+    padding: 30px;
+    //background-image: url(/images/process/process-stage-1.jpg);
     text-align: center;
     color: $color4;
     font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.process-banner-header {
-    
-    
-}
-
-.process-banner-btn {
-    position: absolute;
-    top: 200px;
-
-    transform: translate(0%, -20%);
-}
 
 // Process Buttons Styling
 .process-button-1, 
@@ -172,16 +167,16 @@ Process Page
     font-family: $navFont;
     text-transform: uppercase;
     background-color: $color4;
-    border: none;
-    color: white;
+    color: $color5;
     padding: 13px 25px;
+    margin: 30px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    //display: inline-block;
     font-size: 1em;
-    margin: 50vh 10px;
     cursor: pointer;
 }
+
 
 .cheese-production {
     margin: 0;
