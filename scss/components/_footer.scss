@@ -13,14 +13,14 @@ footer {
 }
 
     // changing link style
-    a:link,
-    a:visited,
-    a:active {
+    footer a:link,
+    footer a:visited,
+    footer a:active {
         color: #BF964B;
         text-decoration: none;
     }
     
-    a:hover {
+    footer a:hover {
         color: #F2BE7E;
         text-decoration: none;
     }
