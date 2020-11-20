@@ -11,3 +11,16 @@ footer {
     padding: 50px 50px 20px 50px;
     margin: 0;
 }
+
+    // changing link style
+    a:link,
+    a:visited,
+    a:active {
+        color: #BF964B;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #F2BE7E;
+        text-decoration: none;
+    }
