@@ -228,92 +228,6 @@ Process Page
     // /text-transform: uppercase;
 }
 
-// ------------  Container 1
-.process-stage1 {
-    position: relative;
-    max-width: 100%;
-    height: 700px;
-    background-image: url("/images/process/process-stage-1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-// ------------  Container 2
-.process-stage2 {
-    position: relative;
-    max-width: 100%;
-    height: 700px;
-    background-image: url("/images/process/process-stage-2.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-// ------------  Container 3
-.process-stage3 {
-    position: relative;
-    max-width: 100%;
-    height: 700px;
-    background-image: url("/images/process/process-stage-3.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-// ------------  Container 4
-.process-stage4 {
-    position: relative;
-    max-width: 100%;
-    height: 700px;
-    background-image: url("/images/process/process-stage-4.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-// ------------  Container 5
-.process-stage5 {
-    position: relative;
-    max-width: 100%;
-    height: 700px;
-    background-image: url("/images/process/process-stage-5.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-// Cheese Types Colours
-
-.mild-container-1 {
-    color: white;
-
-    h2 {
-        text-align: center;
-        padding: 30px;
-    }
-}
-
-.mild-container-2 {
-    color: white;
-    padding: 30px;
-}
-
-.medium-container-2 {
-    color: white;
-    padding: 30px;
-}
-
-.bold-container-2 {
-   color:white;
-   padding: 30px;
-}
-
-.strong-container-2 {
-    color: white;
-    padding: 30px;
-}
-
 /*
 -----------------------
 Media Query for Process Page
@@ -336,10 +250,11 @@ Media Query for Process Page
     .process-stage1 h3 {
         position: absolute;
         top: 17%;
-        left: 45%;
+        left: 35%;
         font-size: 2em;
         color: $color5;
-        //text-transform: uppercase;
+        font-family: $navFont;
+        text-transform: uppercase;
     }
     .process-stage1 p {
         position: absolute;
@@ -358,7 +273,8 @@ Media Query for Process Page
         left: 10%;
         font-size: 2em;
         color: $color5;
-        
+        font-family: $navFont;
+        text-transform: uppercase;
     }
     .process-stage2 p {
         position: absolute;
@@ -377,7 +293,8 @@ Media Query for Process Page
         right: 10%;
         font-size: 2em;
         color: $color5;
-        
+        font-family: $navFont;
+        text-transform: uppercase;
     }
     .process-stage3 p {
         position: absolute;
@@ -396,6 +313,8 @@ Media Query for Process Page
         left: 10%;
         font-size: 2em;
         color: $color5;
+        font-family: $navFont;
+        text-transform: uppercase;
     }
 
     .process-stage4 p {
@@ -412,10 +331,12 @@ Media Query for Process Page
     .process-stage5 h3 {
         position: absolute;
         top: 20%;
-        left: 32%;
+        left: 40%;
         right: 10%;
         font-size: 2em;
         color: $color5;
+        font-family: $navFont;
+        text-transform: uppercase;
     }
 
     .process-stage5 p {
@@ -423,6 +344,104 @@ Media Query for Process Page
         top: 40%;
         right: 10%;
         left: 40%;
+        font-size: 1.1em;
+        font-weight: bold;
+        line-height: normal;
+    }
+
+
+    //  Type Container Text Decoration -------------------------------------------
+    //---------------Container 1
+    .type-mild h2 {
+        position: absolute;
+        top: 4%;
+        left: 24%;
+        font-size: 2.1em;
+        color: $color1;
+    }
+
+    .type-mild h3 {
+        position: absolute;
+        top: 20%;
+        left: 36%;
+        font-size: 1.7em;
+        color: $color2;
+        font-family: $navFont;
+        text-transform: uppercase;
+    }
+
+    .type-mild p {
+        position: absolute;
+        top: 28%;
+        right: 10%;
+        left: 36%;
+        color: white;
+        font-size: 1.1em;
+        font-weight: bold;
+        line-height: normal;
+    }
+
+    
+    //---------------Container 2
+    .type-medium h3 {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        font-size: 2em;
+        color: $color2;
+        font-family: $navFont;
+        text-transform: uppercase;
+    }
+    .type-medium p {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        right: 45%;
+        color: white;
+        font-size: 1.1em;
+        font-weight: bold;
+        line-height: normal;
+    }
+
+    //---------------Container 3
+    .type-bold h3 {
+        position: absolute;
+        top: 16%;
+        left: 50%;
+        font-size: 1.7em;
+        color: $color2;
+        font-family: $navFont;
+        text-transform: uppercase;
+    }
+
+    .type-bold p {
+        position: absolute;
+        top: 26%;
+        right: 6%;
+        left: 50%;
+        color: white;
+        font-size: 1.1em;
+        font-weight: bold;
+        line-height: normal;
+    }
+
+    //---------------Container 4
+    .type-strong h3 {
+        position: absolute;
+        top: 15%;
+        left: 7%;
+        font-size: 2em;
+        color: $color2;
+        font-family: $navFont;
+        text-transform: uppercase;
+    }
+
+    .type-strong p {
+        position: absolute;
+        top: 24%;
+        left: 7%;
+        right: 50%;
+        color: white;
         font-size: 1.1em;
         font-weight: bold;
         line-height: normal;
@@ -455,7 +474,7 @@ Media Query for Process Page
     .process-stage1 h3 {
         position: absolute;
         top: 17%;
-        left: 55%;
+        left: 60%;
         font-size: 2em;
         color: $color5;
         //text-transform: uppercase;
@@ -464,7 +483,7 @@ Media Query for Process Page
         position: absolute;
         top: 35%;
         right: 10%;
-        left: 32%;
+        left: 40%;
         font-size: 1.1em;
         font-weight: bold;
         line-height: normal;
@@ -493,7 +512,7 @@ Media Query for Process Page
     .process-stage3 h3 {
         position: absolute;
         top: 17%;
-        right: 10%;
+        right: 13%;
         font-size: 2em;
         color: $color5;
         
@@ -531,7 +550,7 @@ Media Query for Process Page
     .process-stage5 h3 {
         position: absolute;
         top: 20%;
-        left: 32%;
+        left: 40%;
         right: 10%;
         font-size: 2em;
         color: $color5;
@@ -543,6 +562,96 @@ Media Query for Process Page
         right: 10%;
         left: 40%;
         font-size: 1.1em;
+        font-weight: bold;
+        line-height: normal;
+    }
+
+    //  Type Container Text Decoration -------------------------------------------
+    //---------------Container 1
+    .type-mild h2 {
+        position: absolute;
+        top: 4%;
+        left: 33%;
+        font-size: 2.4em;
+        color: $color1;
+    }
+
+    .type-mild h3 {
+        position: absolute;
+        top: 20%;
+        left: 69%;
+        font-size: 1.7em;
+        color: $color2;
+    }
+
+    .type-mild p {
+        position: absolute;
+        top: 28%;
+        right: 6%;
+        left: 60%;
+        color: white;
+        font-size: 1.4em;
+        font-weight: bold;
+        line-height: normal;
+    }
+
+    
+    //---------------Container 2
+    .type-medium h3 {
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        font-size: 2em;
+        color: $color2;
+        
+    }
+    .type-medium p {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        right: 45%;
+        color: white;
+        font-size: 1.4em;
+        font-weight: bold;
+        line-height: normal;
+    }
+
+    //---------------Container 3
+    .type-bold h3 {
+        position: absolute;
+        top: 16%;
+        left: 58%;
+        font-size: 1.7em;
+        color: $color2;
+    }
+
+    .type-bold p {
+        position: absolute;
+        top: 26%;
+        right: 6%;
+        left: 58%;
+        color: white;
+        font-size: 1.4em;
+        font-weight: bold;
+        line-height: normal;
+    }
+
+    //---------------Container 4
+    .type-strong h3 {
+        position: absolute;
+        top: 15%;
+        left: 7%;
+        font-size: 2em;
+        color: $color2;
+    }
+
+    .type-strong p {
+        position: absolute;
+        top: 24%;
+        left: 7%;
+        right: 50%;
+        color: white;
+        font-size: 1.4em;
         font-weight: bold;
         line-height: normal;
     }
@@ -583,8 +692,8 @@ Media Query for Process Page
     .process-stage1 p {
         position: absolute;
         top: 35%;
-        right: 10%;
-        left: 60%;
+        right: 7%;
+        left: 68%;
         font-size: 1.1em;
         font-weight: normal;
         line-height: 1.6;
@@ -651,7 +760,7 @@ Media Query for Process Page
     .process-stage5 h3 {
         position: absolute;
         top: 20%;
-        left: 60%;
+        left: 55%;
         right: 8%;
         font-size: 2em;
         color: $color5;
@@ -669,4 +778,99 @@ Media Query for Process Page
 }
 
 
+<<<<<<< HEAD
+=======
+    //  Type Container Text Decoration -------------------------------------------
+    //---------------Container 1
+    .type-mild h2 {
+        position: absolute;
+        top: 4%;
+        left: 38%;
+        font-size: 2.9em;
+        color: $color1;
+    }
+
+    .type-mild h3 {
+        position: absolute;
+        top: 20%;
+        left: 76%;
+        font-size: 2.1em;
+        color: $color2;
+    }
+
+    .type-mild p {
+        position: absolute;
+        top: 28%;
+        right: 3%;
+        left: 76%;
+        color: white;
+        font-size: 1.4em;
+        font-weight: bold;
+        line-height: normal;
+    }
+
+    
+    //---------------Container 2
+    .type-medium h3 {
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        font-size: 2.1em;
+        color: $color2;
+        
+    }
+    .type-medium p {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        right: 70%;
+        color: white;
+        font-size: 1.4em;
+        font-weight: bold;
+        line-height: normal;
+    }
+
+    //---------------Container 3
+    .type-bold h3 {
+        position: absolute;
+        top: 16%;
+        left: 68%;
+        font-size: 2.1em;
+        color: $color2;
+    }
+
+    .type-bold p {
+        position: absolute;
+        top: 26%;
+        right: 6%;
+        left: 68%;
+        color: white;
+        font-size: 1.4em;
+        font-weight: bold;
+        line-height: normal;
+    }
+
+    //---------------Container 4
+    .type-strong h3 {
+        position: absolute;
+        top: 15%;
+        left: 7%;
+        font-size: 2.1em;
+        color: $color2;
+    }
+
+    .type-strong p {
+        position: absolute;
+        top: 24%;
+        left: 7%;
+        right: 70%;
+        color: white;
+        font-size: 1.4em;
+        font-weight: bold;
+        line-height: normal;
+    }
+
+
+}
+>>>>>>> 34f2c21a6b94c6638f5a31af77636402636cae35
 

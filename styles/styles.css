@@ -796,7 +796,7 @@ Media Query (Universal)
     position: absolute;
     /* Makes sure the navigation bar is there ALWAYS, past mobile mode */
     top: 10px;
-    right: 300px;
+    right: 180px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1022,85 +1022,6 @@ Process Page
   color: #B3CFF2;
 }
 
-.process-stage1 {
-  position: relative;
-  max-width: 100%;
-  height: 700px;
-  background-image: url("/images/process/process-stage-1.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.process-stage2 {
-  position: relative;
-  max-width: 100%;
-  height: 700px;
-  background-image: url("/images/process/process-stage-2.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.process-stage3 {
-  position: relative;
-  max-width: 100%;
-  height: 700px;
-  background-image: url("/images/process/process-stage-3.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.process-stage4 {
-  position: relative;
-  max-width: 100%;
-  height: 700px;
-  background-image: url("/images/process/process-stage-4.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.process-stage5 {
-  position: relative;
-  max-width: 100%;
-  height: 700px;
-  background-image: url("/images/process/process-stage-5.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.mild-container-1 {
-  color: white;
-}
-
-.mild-container-1 h2 {
-  text-align: center;
-  padding: 30px;
-}
-
-.mild-container-2 {
-  color: white;
-  padding: 30px;
-}
-
-.medium-container-2 {
-  color: white;
-  padding: 30px;
-}
-
-.bold-container-2 {
-  color: white;
-  padding: 30px;
-}
-
-.strong-container-2 {
-  color: white;
-  padding: 30px;
-}
-
 /*
 -----------------------
 Media Query for Process Page
@@ -1126,9 +1047,11 @@ Media Query for Process Page
   .process-stage1 h3 {
     position: absolute;
     top: 17%;
-    left: 45%;
+    left: 35%;
     font-size: 2em;
     color: #734C36;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
   }
   .process-stage1 p {
     position: absolute;
@@ -1145,6 +1068,8 @@ Media Query for Process Page
     left: 10%;
     font-size: 2em;
     color: #734C36;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
   }
   .process-stage2 p {
     position: absolute;
@@ -1161,6 +1086,8 @@ Media Query for Process Page
     right: 10%;
     font-size: 2em;
     color: #734C36;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
   }
   .process-stage3 p {
     position: absolute;
@@ -1177,6 +1104,8 @@ Media Query for Process Page
     left: 10%;
     font-size: 2em;
     color: #734C36;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
   }
   .process-stage4 p {
     position: absolute;
@@ -1190,16 +1119,101 @@ Media Query for Process Page
   .process-stage5 h3 {
     position: absolute;
     top: 20%;
-    left: 32%;
+    left: 40%;
     right: 10%;
     font-size: 2em;
     color: #734C36;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
   }
   .process-stage5 p {
     position: absolute;
     top: 40%;
     right: 10%;
     left: 40%;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .type-mild h2 {
+    position: absolute;
+    top: 4%;
+    left: 24%;
+    font-size: 2.1em;
+    color: #B3CFF2;
+  }
+  .type-mild h3 {
+    position: absolute;
+    top: 20%;
+    left: 36%;
+    font-size: 1.7em;
+    color: #BF964B;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+  }
+  .type-mild p {
+    position: absolute;
+    top: 28%;
+    right: 10%;
+    left: 36%;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .type-medium h3 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 2em;
+    color: #BF964B;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+  }
+  .type-medium p {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 45%;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .type-bold h3 {
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    font-size: 1.7em;
+    color: #BF964B;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+  }
+  .type-bold p {
+    position: absolute;
+    top: 26%;
+    right: 6%;
+    left: 50%;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .type-strong h3 {
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    font-size: 2em;
+    color: #BF964B;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+  }
+  .type-strong p {
+    position: absolute;
+    top: 24%;
+    left: 7%;
+    right: 50%;
+    color: white;
     font-size: 1.1em;
     font-weight: bold;
     line-height: normal;
@@ -1236,7 +1250,7 @@ Media Query for Process Page
   .process-stage1 h3 {
     position: absolute;
     top: 17%;
-    left: 55%;
+    left: 60%;
     font-size: 2em;
     color: #734C36;
   }
@@ -1244,7 +1258,7 @@ Media Query for Process Page
     position: absolute;
     top: 35%;
     right: 10%;
-    left: 32%;
+    left: 40%;
     font-size: 1.1em;
     font-weight: bold;
     line-height: normal;
@@ -1268,7 +1282,7 @@ Media Query for Process Page
   .process-stage3 h3 {
     position: absolute;
     top: 17%;
-    right: 10%;
+    right: 13%;
     font-size: 2em;
     color: #734C36;
   }
@@ -1300,7 +1314,7 @@ Media Query for Process Page
   .process-stage5 h3 {
     position: absolute;
     top: 20%;
-    left: 32%;
+    left: 40%;
     right: 10%;
     font-size: 2em;
     color: #734C36;
@@ -1311,6 +1325,81 @@ Media Query for Process Page
     right: 10%;
     left: 40%;
     font-size: 1.1em;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .type-mild h2 {
+    position: absolute;
+    top: 4%;
+    left: 33%;
+    font-size: 2.4em;
+    color: #B3CFF2;
+  }
+  .type-mild h3 {
+    position: absolute;
+    top: 20%;
+    left: 69%;
+    font-size: 1.7em;
+    color: #BF964B;
+  }
+  .type-mild p {
+    position: absolute;
+    top: 28%;
+    right: 6%;
+    left: 60%;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .type-medium h3 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 2em;
+    color: #BF964B;
+  }
+  .type-medium p {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    right: 45%;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .type-bold h3 {
+    position: absolute;
+    top: 16%;
+    left: 58%;
+    font-size: 1.7em;
+    color: #BF964B;
+  }
+  .type-bold p {
+    position: absolute;
+    top: 26%;
+    right: 6%;
+    left: 58%;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .type-strong h3 {
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    font-size: 2em;
+    color: #BF964B;
+  }
+  .type-strong p {
+    position: absolute;
+    top: 24%;
+    left: 7%;
+    right: 50%;
+    color: white;
+    font-size: 1.4em;
     font-weight: bold;
     line-height: normal;
   }
@@ -1353,8 +1442,8 @@ Media Query for Process Page
   .process-stage1 p {
     position: absolute;
     top: 35%;
-    right: 10%;
-    left: 60%;
+    right: 7%;
+    left: 68%;
     font-size: 1.1em;
     font-weight: normal;
     line-height: 1.6;
@@ -1410,7 +1499,7 @@ Media Query for Process Page
   .process-stage5 h3 {
     position: absolute;
     top: 20%;
-    left: 60%;
+    left: 55%;
     right: 8%;
     font-size: 2em;
     color: #734C36;
@@ -1423,6 +1512,81 @@ Media Query for Process Page
     font-size: 1.1em;
     font-weight: normal;
     line-height: 1.6;
+  }
+  .type-mild h2 {
+    position: absolute;
+    top: 4%;
+    left: 38%;
+    font-size: 2.9em;
+    color: #B3CFF2;
+  }
+  .type-mild h3 {
+    position: absolute;
+    top: 20%;
+    left: 76%;
+    font-size: 2.1em;
+    color: #BF964B;
+  }
+  .type-mild p {
+    position: absolute;
+    top: 28%;
+    right: 3%;
+    left: 76%;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .type-medium h3 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 2.1em;
+    color: #BF964B;
+  }
+  .type-medium p {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    right: 70%;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .type-bold h3 {
+    position: absolute;
+    top: 16%;
+    left: 68%;
+    font-size: 2.1em;
+    color: #BF964B;
+  }
+  .type-bold p {
+    position: absolute;
+    top: 26%;
+    right: 6%;
+    left: 68%;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .type-strong h3 {
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    font-size: 2.1em;
+    color: #BF964B;
+  }
+  .type-strong p {
+    position: absolute;
+    top: 24%;
+    left: 7%;
+    right: 70%;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: normal;
   }
 }
 
@@ -1474,6 +1638,96 @@ PROCESS STYLES
   background-position: center;
   max-width: 100%;
   height: auto;
+}
+
+.process-stage1 {
+  position: relative;
+  max-width: 100%;
+  height: 700px;
+  background-image: url("/images/process/process-stage-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.process-stage2 {
+  position: relative;
+  max-width: 100%;
+  height: 700px;
+  background-image: url("/images/process/process-stage-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.process-stage3 {
+  position: relative;
+  max-width: 100%;
+  height: 700px;
+  background-image: url("/images/process/process-stage-3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.process-stage4 {
+  position: relative;
+  max-width: 100%;
+  height: 700px;
+  background-image: url("/images/process/process-stage-4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.process-stage5 {
+  position: relative;
+  max-width: 100%;
+  height: 700px;
+  background-image: url("/images/process/process-stage-5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.type-mild {
+  position: relative;
+  max-width: 100%;
+  height: 700px;
+  background-image: url("/images/process/type-3-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.type-medium {
+  position: relative;
+  max-width: 100%;
+  height: 700px;
+  background-image: url("/images/process/type-5-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.type-bold {
+  position: relative;
+  max-width: 100%;
+  height: 700px;
+  background-image: url("/images/process/type-6-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.type-strong {
+  position: relative;
+  max-width: 100%;
+  height: 700px;
+  background-image: url("/images/process/type-1-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /*
