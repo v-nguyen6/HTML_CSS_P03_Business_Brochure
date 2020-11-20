@@ -80,15 +80,55 @@
         text-align: center;
         font-family: $navFont;
         font-weight: lighter;
-        padding-bottom: 30px;
+        padding-bottom: 40px;
         padding-top: 70px;
+
+        @media (min-width: 700px) {
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+
+        @media (min-width: 1000px)
+        {
+            padding-bottom: 20px;
+            padding-top: 20px; 
+        }
+
+    }
+
+    .about-us p, .craftsmanship p {
+        padding-top: 40px;
     }
 
     .about-us, .craftsmanship {
         color: white;
         font-weight: 100;
-        font-size: 20px;
+        font-size: 15px;
         line-height: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+    
+        @media (min-width: 700px) {
+            padding-left: 50px;
+            padding-right: 50px;
+            margin-top: 10%;
+        }
+
+        @media (min-width: 500px) {
+            padding-left: 50px;
+            padding-right: 50px;
+            font-size: 15px;
+            line-height: 20px;
+        }
+
+        @media (min-width: 1000px)
+        {
+            padding-left: 90px;
+            padding-right: 90px;
+            margin-top: 5%;
+        }
+
     }
 
 
@@ -126,10 +166,10 @@
 
 
     // about us - @media
-    @media (min-width: $desktopRegular)
+    @media (min-width: 1000px)
     {
         .about-section {
-            margin-top: 15%;
+            margin-top: 10%;
             padding: 60px;
         }
 
@@ -735,8 +775,11 @@ Media Query for Process Page
         font-weight: normal;
         line-height: 1.6;
     }
+}
 
 
+<<<<<<< HEAD
+=======
     //  Type Container Text Decoration -------------------------------------------
     //---------------Container 1
     .type-mild h2 {
@@ -829,4 +872,5 @@ Media Query for Process Page
 
 
 }
+>>>>>>> 34f2c21a6b94c6638f5a31af77636402636cae35
 
