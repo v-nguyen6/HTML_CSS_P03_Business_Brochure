@@ -14,7 +14,7 @@
 .logo {
     width: 60%;
 
-    @media (min-width: $desktopSmall)
+    @media (min-width: 500)
     {
     position:absolute;
     left:0;
@@ -24,11 +24,16 @@
 
     @media (min-width: 700px)
     {
-        width: 60%;
+        width: 40%;
+    }
+
+    @media (min-width: 900px)
+    {
+        width: 25%;
     }
 
     @media (min-width: 1000px)
     {
-        width: 30%;
+        width: 25%;
     }
 }
