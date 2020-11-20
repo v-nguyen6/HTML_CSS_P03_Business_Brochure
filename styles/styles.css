@@ -974,7 +974,7 @@ Process Page
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/process-stage-1.jpg");
+  background-image: url("/images/process/process-stage-1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -984,7 +984,7 @@ Process Page
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/process-stage-2.jpg");
+  background-image: url("/images/process/process-stage-2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -994,7 +994,7 @@ Process Page
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/process-stage-3.jpg");
+  background-image: url("/images/process/process-stage-3.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1004,7 +1004,7 @@ Process Page
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/process-stage-4.jpg");
+  background-image: url("/images/process/process-stage-4.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1014,7 +1014,7 @@ Process Page
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/process-stage-5.jpg");
+  background-image: url("/images/process/process-stage-5.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1044,7 +1044,7 @@ Process Page
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/type-6-1.jpg");
+  background-image: url("/images/process/type-6-2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1054,7 +1054,7 @@ Process Page
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/type-1-2.jpg");
+  background-image: url("/images/process/type-1-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1159,6 +1159,81 @@ Media Query for Process Page
     top: 40%;
     right: 10%;
     left: 40%;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .type-mild h2 {
+    position: absolute;
+    top: 4%;
+    left: 24%;
+    font-size: 2.1em;
+    color: #B3CFF2;
+  }
+  .type-mild h3 {
+    position: absolute;
+    top: 20%;
+    left: 36%;
+    font-size: 1.7em;
+    color: #BF964B;
+  }
+  .type-mild p {
+    position: absolute;
+    top: 28%;
+    right: 10%;
+    left: 36%;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .type-medium h3 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 2em;
+    color: #BF964B;
+  }
+  .type-medium p {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 45%;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .type-bold h3 {
+    position: absolute;
+    top: 16%;
+    left: 54%;
+    font-size: 1.7em;
+    color: #BF964B;
+  }
+  .type-bold p {
+    position: absolute;
+    top: 26%;
+    right: 6%;
+    left: 50%;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .type-strong h3 {
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    font-size: 2em;
+    color: #BF964B;
+  }
+  .type-strong p {
+    position: absolute;
+    top: 24%;
+    left: 7%;
+    right: 50%;
+    color: white;
     font-size: 1.1em;
     font-weight: bold;
     line-height: normal;
