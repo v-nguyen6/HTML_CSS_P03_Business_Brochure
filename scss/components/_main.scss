@@ -1,13 +1,11 @@
 // Main Style Guide
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> e4845ab94de9c4d76ec2c16c3741334cdffb4eea
+
+
 // .class selectors
     // contact form - .class selectors
-=======
+
 // Contact form styles
 
 
@@ -109,10 +107,10 @@
 
 @media (min-width: $desktopRegular)
 {
->>>>>>> parent of 0e2208c... Revert "Revert "Revert "Revert "Revert "Revert "Revert "update"""""""
+
 
     .fieldset-contact {
-        background-color: rgb(239,239,239,0.3);
+        background-color: rgba(239,239,239,0.3);
         margin-top: 40px;
         border-width: 2.5px;
         margin-left: 20px;
@@ -856,102 +854,4 @@ Media Query for Process Page
         font-weight: normal;
         line-height: 1.6;
     }
-<<<<<<< HEAD
 }
-=======
-
-
-
-    //  Type Container Text Decoration -------------------------------------------
-    //---------------Container 1
-    .type-mild h2 {
-        position: absolute;
-        top: 4%;
-        left: 38%;
-        font-size: 2.9em;
-        color: $color1;
-    }
-
-    .type-mild h3 {
-        position: absolute;
-        top: 20%;
-        left: 76%;
-        font-size: 2.1em;
-        color: $color2;
-    }
-
-    .type-mild p {
-        position: absolute;
-        top: 28%;
-        right: 3%;
-        left: 76%;
-        color: white;
-        font-size: 1.4em;
-        font-weight: bold;
-        line-height: normal;
-    }
-
-    
-    //---------------Container 2
-    .type-medium h3 {
-        position: absolute;
-        top: 10%;
-        left: 5%;
-        font-size: 2.1em;
-        color: $color2;
-        
-    }
-    .type-medium p {
-        position: absolute;
-        top: 20%;
-        left: 5%;
-        right: 70%;
-        color: white;
-        font-size: 1.4em;
-        font-weight: bold;
-        line-height: normal;
-    }
-
-    //---------------Container 3
-    .type-bold h3 {
-        position: absolute;
-        top: 16%;
-        left: 68%;
-        font-size: 2.1em;
-        color: $color2;
-    }
-
-    .type-bold p {
-        position: absolute;
-        top: 26%;
-        right: 6%;
-        left: 68%;
-        color: white;
-        font-size: 1.4em;
-        font-weight: bold;
-        line-height: normal;
-    }
-
-    //---------------Container 4
-    .type-strong h3 {
-        position: absolute;
-        top: 15%;
-        left: 7%;
-        font-size: 2.1em;
-        color: $color2;
-    }
-
-    .type-strong p {
-        position: absolute;
-        top: 24%;
-        left: 7%;
-        right: 70%;
-        color: white;
-        font-size: 1.4em;
-        font-weight: bold;
-        line-height: normal;
-    }
-}
-
-
->>>>>>> parent of 0e2208c... Revert "Revert "Revert "Revert "Revert "Revert "Revert "update"""""""

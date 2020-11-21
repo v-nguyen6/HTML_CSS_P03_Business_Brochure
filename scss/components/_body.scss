@@ -1,6 +1,21 @@
 html {
     height: 100%;
 }
+
+body {
+    &.open {
+        overflow: hidden;
+        height: 100vh;
+    }
+    @media (min-width: 900px){
+        &.open {
+            overflow: scroll;
+            height: auto;
+        }
+    }
+}
+
+
 /*
 ------------------------------------------------------------------------------------------------
 -------
