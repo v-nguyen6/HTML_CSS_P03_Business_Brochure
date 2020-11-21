@@ -503,11 +503,11 @@ nav a {
   margin-top: 250px;
   margin-left: 90px;
   margin-bottom: 60px;
-  width: 700px;
+  width: 500px;
   padding-left: 20px;
   padding-right: 50px;
   padding-bottom: 50px;
-  margin-top: 12%;
+  margin-top: 15%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -520,7 +520,7 @@ nav a {
 }
 
 .legend-contact-form {
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: lighter;
   text-align: center;
   padding: 10px;
@@ -563,10 +563,8 @@ nav a {
 @media (max-width: 700px) {
   .contact-form {
     padding: none;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    left: 50px;
+    right: 70px;
   }
   .contact-form h2,
   .legend-contact-form {
@@ -594,8 +592,8 @@ nav a {
   }
   .contact-form {
     text-align: left;
-    margin-top: 250px;
-    margin-left: 90px;
+    margin-top: 180px;
+    margin-left: 40px;
     margin-bottom: 60px;
     width: 700px;
     padding-left: 70px;
@@ -766,33 +764,6 @@ INDEX STYLES
     padding: 20px;
     font-size: 30px;
   }
-}
-
-/*
-------------------------------------------------------------------------------------------------
--------
-PROCESS STYLES
--------
-------------------------------------------------------------------------------------------------
-*/
-/*
-------------------------------------------------------------------------------------------------
--------
-ABOUT STYLES
--------
-------------------------------------------------------------------------------------------------
-*/
-/*
-------------------------------------------------------------------------------------------------
--------
-CONTACT STYLES
-
--------
-------------------------------------------------------------------------------------------------
-*/
-.body-contact {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .wrapper {
@@ -997,9 +968,9 @@ body.open {
 }
 
 .nav-a-white {
-  color: white;
   text-decoration: none;
   font-size: 15px;
+  color: white;
   text-transform: uppercase;
   padding: 0 0 20px 0;
 }
@@ -1056,13 +1027,12 @@ Media Query (Universal)
   .hamburger-menu {
     display: none;
   }
-  /*
-    /* Nav Menu */
+  /* Nav Menu */
   #nav-ul {
     position: absolute;
     /* Makes sure the navigation bar is there ALWAYS, past mobile mode */
     top: 10px;
-    right: 200px;
+    right: 240px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1088,6 +1058,7 @@ Media Query (Universal)
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    color: white;
   }
 }
 
@@ -1629,20 +1600,27 @@ footer {
   font-size: 10px;
 }
 
+footer a:link,
+footer a:visited,
+footer a:active {
+  color: black;
+  text-decoration: none;
+}
+
 .about-footer {
   color: white;
   padding: 50px 50px 20px 50px;
   margin: 0;
 }
 
-a:link,
-a:visited,
-a:active {
-  color: black;
+.about-footer a:link,
+.about-footer a:visited,
+.about-footer a:active {
+  color: white;
   text-decoration: none;
 }
 
-a:hover {
+.about-footer a:hover {
   color: #BF964B;
   text-decoration: none;
 }
