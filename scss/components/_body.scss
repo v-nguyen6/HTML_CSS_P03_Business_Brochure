@@ -33,10 +33,8 @@ INDEX STYLES
     text-align: left;
     top: 50%;
     font-size: 20px;
-    width: 90%;
+    width: 80%;
     
-
-
     // Tag Line Container Media Queries
 
     @media (min-width: $tabletMedium) // 700px
@@ -46,7 +44,7 @@ INDEX STYLES
 
     @media (min-width: $desktopSmall)
     {
-       font-size: 40px; 
+       font-size: 50px; 
     }
 
     @media (min-width: $desktopRegular) // 1120px
@@ -56,16 +54,22 @@ INDEX STYLES
     }
 }
 
-// Making Health Good with Cheese FONT COLOR
+// Tagline Styles and Media Queries
 
 .tagline {
     color: $secondary_color;
+    font-size: 30px;
+    text-align: center;
+
+    @media (min-width: 900px)
+        {
+            color: $secondary_color;
+            font-size: 40px;
+            text-align: left;
+        }
 }
 
-// Explore Button Styles
-
-// Explore Button Media Queries
-
+// Explore Button Styles & Media Queries
 
 /* Offset Button Styles */
 
@@ -94,9 +98,11 @@ INDEX STYLES
     padding-right: 90px;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 20px;
+    font-size: 15px;
+    color: white;
 }
 
+// Media Queries
 
 .explorebutton {
 

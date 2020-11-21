@@ -677,7 +677,7 @@ INDEX STYLES
   text-align: left;
   top: 50%;
   font-size: 20px;
-  width: 90%;
+  width: 80%;
 }
 
 @media (min-width: 700px) {
@@ -688,7 +688,7 @@ INDEX STYLES
 
 @media (min-width: 770px) {
   .tagline-container {
-    font-size: 40px;
+    font-size: 50px;
   }
 }
 
@@ -701,6 +701,16 @@ INDEX STYLES
 
 .tagline {
   color: #c8beb3;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  .tagline {
+    color: #c8beb3;
+    font-size: 40px;
+    text-align: left;
+  }
 }
 
 /* Offset Button Styles */
@@ -729,7 +739,8 @@ INDEX STYLES
   padding-right: 90px;
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 20px;
+  font-size: 15px;
+  color: white;
 }
 
 @media (min-width: 770px) {
@@ -988,7 +999,7 @@ body.open {
 .nav-a-white {
   color: white;
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 15px;
   text-transform: uppercase;
   padding: 0 0 20px 0;
 }
@@ -1058,7 +1069,7 @@ Media Query (Universal)
     margin: 0;
   }
   .nav-a {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
@@ -1615,6 +1626,7 @@ footer {
   color: black;
   text-align: center;
   padding: 50px 50px 0px 50px;
+  font-size: 10px;
 }
 
 .about-footer {
