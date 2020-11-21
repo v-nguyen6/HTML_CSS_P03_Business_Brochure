@@ -417,6 +417,234 @@ nav a {
   font-family: "Josefin Sans", sans-serif;
 }
 
+.about-us h2, .craftsmanship h2 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: lighter;
+  padding-bottom: 40px;
+  padding-top: 70px;
+}
+
+@media (min-width: 700px) {
+  .about-us h2, .craftsmanship h2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about-us h2, .craftsmanship h2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+
+.about-us p, .craftsmanship p {
+  padding-top: 40px;
+}
+
+.about-us, .craftsmanship {
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media (min-width: 700px) {
+  .about-us, .craftsmanship {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 10%;
+  }
+}
+
+@media (min-width: 500px) {
+  .about-us, .craftsmanship {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about-us, .craftsmanship {
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about-section {
+    margin-top: 10%;
+    padding: 60px;
+  }
+  .hr-about {
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+}
+
+.fieldset-contact {
+  margin-top: 10px;
+  border-width: 2.5px;
+  margin-left: 20px;
+}
+
+.contact-form {
+  text-align: left;
+  margin-top: 250px;
+  margin-left: 90px;
+  margin-bottom: 60px;
+  width: 700px;
+  padding-left: 20px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  margin-top: 12%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-form h2 {
+  font-size: 2em;
+  font-weight: lighter;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.legend-contact-form {
+  font-size: 1.5em;
+  font-weight: lighter;
+  text-align: center;
+  padding: 10px;
+}
+
+.basic-form p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact-grey-bckgnd {
+  border: none;
+  background-color: lightgrey;
+  padding: 15px;
+  margin: 5px;
+  width: 96%;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+.legend-contact-form,
+.form-row input,
+.contact-label {
+  margin-left: 5px;
+}
+
+.basic-form p,
+.contact-form h2 {
+  margin-left: 20px;
+}
+
+.submit {
+  width: 100px;
+  padding: 10px;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 700px) {
+  .contact-form {
+    padding: none;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-form h2,
+  .legend-contact-form {
+    font-size: 1.25em;
+    padding: 0px;
+  }
+  .contact-form p,
+  .contact-label,
+  .contact-grey-bckgnd,
+  .form-row label {
+    font-size: 0.85em;
+  }
+  .legend-contact-form {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+@media (min-width: 1120px) {
+  .fieldset-contact {
+    background-color: rgba(239, 239, 239, 0.3);
+    margin-top: 40px;
+    border-width: 2.5px;
+    margin-left: 20px;
+  }
+  .contact-form {
+    text-align: left;
+    margin-top: 250px;
+    margin-left: 90px;
+    margin-bottom: 60px;
+    width: 700px;
+    padding-left: 70px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+  }
+  .contact-form h2 {
+    font-size: 2em;
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .legend-contact-form {
+    font-size: 1.5em;
+    font-weight: lighter;
+    text-align: center;
+    padding: 10px;
+  }
+  .basic-form p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .contact-grey-bckgnd {
+    border: none;
+    background-color: lightgrey;
+    padding: 15px;
+    margin: 5px;
+    width: 96%;
+    margin-bottom: 20px;
+    border-radius: 3px;
+  }
+  .legend-contact-form,
+  .form-row input,
+  .contact-label {
+    margin-left: 5px;
+  }
+  .basic-form p,
+  .contact-form h2 {
+    margin-left: 20px;
+  }
+  .submit {
+    width: 100px;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 html {
   height: 100%;
 }
@@ -852,234 +1080,6 @@ Media Query (Universal)
   }
 }
 
-.fieldset-contact {
-  margin-top: 10px;
-  border-width: 2.5px;
-  margin-left: 20px;
-}
-
-.contact-form {
-  text-align: left;
-  margin-top: 250px;
-  margin-left: 90px;
-  margin-bottom: 60px;
-  width: 700px;
-  padding-left: 20px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-  margin-top: 12%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.contact-form h2 {
-  font-size: 2em;
-  font-weight: lighter;
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-.legend-contact-form {
-  font-size: 1.5em;
-  font-weight: lighter;
-  text-align: center;
-  padding: 10px;
-}
-
-.basic-form p {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.contact-grey-bckgnd {
-  border: none;
-  background-color: lightgrey;
-  padding: 15px;
-  margin: 5px;
-  width: 96%;
-  margin-bottom: 20px;
-  border-radius: 3px;
-}
-
-.legend-contact-form,
-.form-row input,
-.contact-label {
-  margin-left: 5px;
-}
-
-.basic-form p,
-.contact-form h2 {
-  margin-left: 20px;
-}
-
-.submit {
-  width: 100px;
-  padding: 10px;
-  text-transform: uppercase;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media (max-width: 700px) {
-  .contact-form {
-    padding: none;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .contact-form h2,
-  .legend-contact-form {
-    font-size: 1.25em;
-    padding: 0px;
-  }
-  .contact-form p,
-  .contact-label,
-  .contact-grey-bckgnd,
-  .form-row label {
-    font-size: 0.85em;
-  }
-  .legend-contact-form {
-    padding: 0px;
-    margin: 0px;
-  }
-}
-
-@media (min-width: 1120px) {
-  .fieldset-contact {
-    background-color: rgba(239, 239, 239, 0.3);
-    margin-top: 40px;
-    border-width: 2.5px;
-    margin-left: 20px;
-  }
-  .contact-form {
-    text-align: left;
-    margin-top: 250px;
-    margin-left: 90px;
-    margin-bottom: 60px;
-    width: 700px;
-    padding-left: 70px;
-    padding-right: 50px;
-    padding-bottom: 100px;
-  }
-  .contact-form h2 {
-    font-size: 2em;
-    font-weight: lighter;
-    text-align: center;
-    padding-bottom: 10px;
-  }
-  .legend-contact-form {
-    font-size: 1.5em;
-    font-weight: lighter;
-    text-align: center;
-    padding: 10px;
-  }
-  .basic-form p {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .contact-grey-bckgnd {
-    border: none;
-    background-color: lightgrey;
-    padding: 15px;
-    margin: 5px;
-    width: 96%;
-    margin-bottom: 20px;
-    border-radius: 3px;
-  }
-  .legend-contact-form,
-  .form-row input,
-  .contact-label {
-    margin-left: 5px;
-  }
-  .basic-form p,
-  .contact-form h2 {
-    margin-left: 20px;
-  }
-  .submit {
-    width: 100px;
-    padding: 10px;
-    text-transform: uppercase;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-.about-us h2, .craftsmanship h2 {
-  color: white;
-  font-size: 40px;
-  text-align: center;
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: lighter;
-  padding-bottom: 40px;
-  padding-top: 70px;
-}
-
-@media (min-width: 700px) {
-  .about-us h2, .craftsmanship h2 {
-    padding-bottom: 20px;
-    padding-top: 20px;
-  }
-}
-
-@media (min-width: 1000px) {
-  .about-us h2, .craftsmanship h2 {
-    padding-bottom: 20px;
-    padding-top: 20px;
-  }
-}
-
-.about-us p, .craftsmanship p {
-  padding-top: 40px;
-}
-
-.about-us, .craftsmanship {
-  color: white;
-  font-weight: 100;
-  font-size: 15px;
-  line-height: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-@media (min-width: 700px) {
-  .about-us, .craftsmanship {
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 10%;
-  }
-}
-
-@media (min-width: 500px) {
-  .about-us, .craftsmanship {
-    padding-left: 50px;
-    padding-right: 50px;
-    font-size: 15px;
-    line-height: 20px;
-  }
-}
-
-@media (min-width: 1000px) {
-  .about-us, .craftsmanship {
-    padding-left: 90px;
-    padding-right: 90px;
-    margin-top: 5%;
-  }
-}
-
-@media (min-width: 1000px) {
-  .about-section {
-    margin-top: 10%;
-    padding: 60px;
-  }
-  .hr-about {
-    width: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-  }
-}
-
 /*
 --------------------------------------------
 Process Page
@@ -1097,8 +1097,7 @@ Process Page
   font-family: "Josefin Sans", sans-serif;
 }
 
-.process-button-1,
-.process-button-2 {
+.process-button-1, .process-button-2 {
   font-family: "Merriweather", serif;
   text-transform: uppercase;
   background-color: #F2BE7E;

@@ -1,0 +1,72 @@
+// About Page Styles
+
+.about-us h2, .craftsmanship h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: $navFont;
+    font-weight: lighter;
+    padding-bottom: 40px;
+    padding-top: 70px;
+
+    @media (min-width: 700px) {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    @media (min-width: 1000px)
+    {
+        padding-bottom: 20px;
+        padding-top: 20px; 
+    }
+}
+
+.about-us p, .craftsmanship p {
+    padding-top: 40px;
+}
+
+.about-us, .craftsmanship {
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+    @media (min-width: 700px) {
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 10%;
+    }
+
+    @media (min-width: 500px) {
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    @media (min-width: 1000px)
+    {
+        padding-left: 90px;
+        padding-right: 90px;
+        margin-top: 5%;
+    }
+}
+
+// about us - @media queries
+@media (min-width: 1000px)
+{
+    .about-section {
+        margin-top: 10%;
+        padding: 60px;
+    }
+
+    .hr-about {
+        width: 10%;  
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+}
