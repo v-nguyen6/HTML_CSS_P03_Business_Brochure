@@ -562,7 +562,7 @@ nav a {
 
 @media (max-width: 700px) {
   .contact-form {
-    padding: none;
+    padding: 0;
     left: 50px;
     right: 70px;
   }
@@ -776,7 +776,7 @@ INDEX STYLES
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0 auto;
-  background-color: none;
+  background-color: transparent;
   overflow: hidden;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -804,7 +804,7 @@ INDEX STYLES
 }
 
 .btn-menu {
-  background-color: none;
+  background-color: transparent;
   color: black;
   border: none;
   font-size: 1em;
@@ -1635,7 +1635,7 @@ INDEX STYLES
 .body-index {
   margin: 0;
   background-size: cover;
-  background-color: none;
+  background-color: transparent;
   background-image: url("../images/landing-wallpaper.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1654,7 +1654,7 @@ PROCESS STYLES
 .body-process {
   margin: 0;
   background-size: cover;
-  background-color: none;
+  background-color: transparent;
   background-image: url("/images/process/cheese-cellar-1-final.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1763,7 +1763,7 @@ ABOUT STYLES
 .body-about-index {
   margin: 0;
   background-size: cover;
-  background-color: none;
+  background-color: transparent;
   background-image: url("/images/about-background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1783,7 +1783,7 @@ CONTACT STYLES
 .body-contact {
   margin: 0;
   background-size: cover;
-  background-color: none;
+  background-color: transparent;
   background-image: url("/images/contact-bg2.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1794,7 +1794,7 @@ CONTACT STYLES
 
 @media (max-width: 700px) {
   .body-contact {
-    background-image: none;
+    background-image: transparent;
   }
 }
 /*# sourceMappingURL=styles.css.map */
