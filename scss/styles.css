@@ -1655,7 +1655,7 @@ PROCESS STYLES
   margin: 0;
   background-size: cover;
   background-color: transparent;
-  background-image: url("/images/process/cheese-cellar-1-final.jpg");
+  background-image: url("../images/process/cheese-cellar-1-final.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -1667,7 +1667,7 @@ PROCESS STYLES
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/process-stage-1.png");
+  background-image: url("../images/process/process-stage-1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1677,7 +1677,7 @@ PROCESS STYLES
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/process-stage-2.png");
+  background-image: url("../images/process/process-stage-2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1687,7 +1687,7 @@ PROCESS STYLES
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/process-stage-3.png");
+  background-image: url("../images/process/process-stage-3.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1697,7 +1697,7 @@ PROCESS STYLES
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/process-stage-4.png");
+  background-image: url("../images/process/process-stage-4.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1707,7 +1707,7 @@ PROCESS STYLES
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/process-stage-5.png");
+  background-image: url("../images/process/process-stage-5.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1717,7 +1717,7 @@ PROCESS STYLES
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/type-3-1.jpg");
+  background-image: url("../images/process/type-3-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1727,7 +1727,7 @@ PROCESS STYLES
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/type-5-1.jpg");
+  background-image: url("../images/process/type-5-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1737,7 +1737,7 @@ PROCESS STYLES
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/type-6-2.jpg");
+  background-image: url("../images/process/type-6-2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1747,7 +1747,7 @@ PROCESS STYLES
   position: relative;
   max-width: 100%;
   height: 700px;
-  background-image: url("/images/process/type-1-1.jpg");
+  background-image: url("../images/process/type-1-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1764,7 +1764,7 @@ ABOUT STYLES
   margin: 0;
   background-size: cover;
   background-color: transparent;
-  background-image: url("/images/about-background.png");
+  background-image: url("../images/about-background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -1784,7 +1784,7 @@ CONTACT STYLES
   margin: 0;
   background-size: cover;
   background-color: transparent;
-  background-image: url("/images/contact-bg2.png");
+  background-image: url("../images/contact-bg2.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
