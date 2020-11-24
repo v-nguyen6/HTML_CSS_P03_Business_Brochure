@@ -11,7 +11,7 @@ INDEX STYLES
 .body-index {
     margin: 0;
     background-size: cover;
-    background-color: none;
+    background-color: transparent;
     background-image: url("../images/landing-wallpaper.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -31,7 +31,7 @@ PROCESS STYLES
 .body-process {
     margin: 0;
     background-size: cover;
-    background-color: none;
+    background-color: transparent;
     background-image: url("/images/process/cheese-cellar-1-final.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -166,7 +166,7 @@ ABOUT STYLES
 .body-about-index {
     margin: 0;
     background-size: cover;
-    background-color: none;
+    background-color: transparent;
     background-image: url('/images/about-background.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -188,7 +188,7 @@ CONTACT STYLES
 .body-contact {
     margin: 0;
     background-size: cover;
-    background-color: none;
+    background-color: transparent;
     background-image: url('/images/contact-bg2.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -200,6 +200,6 @@ CONTACT STYLES
 // remove background-image on mobile, only show off-white background color
 @media (max-width: $tabletMedium) {
     .body-contact {
-        background-image: none;
+        background-image: transparent;
     }
 }
