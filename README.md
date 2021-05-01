@@ -9,5 +9,7 @@ Keep It Cheesy is a fictional gourmet cheese store, showcasing their production 
 
 ### Built with
 
-* [Javascript](https://www.javascript.com/)
+* [HTML](https://html.spec.whatwg.org/)
 * [Sass](https://sass-lang.com/)
+* [Javascript](https://www.javascript.com/)
+* [Google Fonts](https://fonts.google.com/)
